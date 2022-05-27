@@ -1,3 +1,21 @@
-site_name: My Docs
+site_name: Documentation de Biblissima+
+site_url: https://doc.biblissima.fr
+site_description: Documentation technique de l'infrastructure Biblissima+, observatoire des cultures écrites anciennes de l’argile à l’imprimé (ANR-21-ESRE-0005)
+site_author: Équipe Portail Biblissima+
+copyright: Licence Ouverte / Open License 2.0
+repo_url: https://gitlab.huma-num.fr/biblissima/doc.biblissima
+repo_name: Gitlab
+edit_uri: edit/main/docs/
+
 theme:
   name: material
+  locale: fr
+
+markdown_extensions:
+  - toc:
+      permalink: True
+  - sane_lists
+  - attr_list
+  - admonition
+  - footnotes
+  - smarty
