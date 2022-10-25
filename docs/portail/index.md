@@ -79,13 +79,6 @@ Il recourt à deux visualiseurs d'images compatibles avec les standards IIIF :
 - [OpenSeadragon](https://openseadragon.github.io) : visualiseur d'images compatible avec l'API Image de IIIF.
 
 
-### Entrepôts IIIF
-
-<mark>Liste des entrepôts iiif utilisés par le Portail, extraite de data.bbma (via sparql) ?? (=> cette section remplacerait la page https://portail.biblissima.fr/fr/info-iiif)</mark>
-
-<mark>+ Liste des licences utilisées ?</mark>
-
-
 ## Mises à jour
 
 Voir la page [Journal des mises à jour et développements](changelog.md).
