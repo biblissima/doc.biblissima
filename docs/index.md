@@ -1,17 +1,25 @@
-# Welcome to MkDocs
+# Documentation de Biblissima+
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+Ce site rassemble la documentation technique de **l'infrastructure numérique de Biblissima+ (2021-2029)**, _Observatoire des cultures écrites anciennes de l’argile à l’imprimé_. Pour plus d’informations sur le projet, voir le site [projet.biblissima.fr](https://projet.biblissima.fr).
 
-## Commands
+!!! info "A propos"
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+    La documentation est créée, maintenue et publiée par [l’équipe Portail Biblissima+](https://projet.biblissima.fr/fr/organisation/equipe-biblissima). 
 
-## Project layout
+    Le code source est disponible sur [Gitlab](https://gitlab.huma-num.fr/biblissima/doc.biblissima). Il est ouvert à toute [suggestion de modification](https://gitlab.huma-num.fr/biblissima/doc.biblissima/-/issues/new).
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+    Sauf mention contraire, les contenus de ce site sont publiés sous [Licence Ouverte / Open License 2.0](https://www.etalab.gouv.fr/licence-ouverte-open-licence/).
+
+    Pour toute demande, veuillez contacter l'équipe à l'adresse _team (at) biblissima-condorcet.fr_.
+
+:material-archive-outline: Les pages de documentation créées dans le cadre de Biblissima (2012-2021) sont désormais archivées : consulter [les archives du site](_archives/index.md).
+
+
+<figure markdown>
+  ![](assets/biblissima-baseline-sombre-ia.png){ width="400" }
+</figure>
+
+!!! quote ""
+
+    _Biblissima+ bénéficie d’une aide de l'Etat gérée par l'ANR au titre du Programme d’investissements d’avenir, portant la référence ANR-21-ESRE-0005._
+

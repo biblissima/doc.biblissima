@@ -1,21 +1,92 @@
-site_name: Documentation de Biblissima+
+site_name: Documentation Biblissima+
 site_url: https://doc.biblissima.fr
 site_description: Documentation technique de l'infrastructure Biblissima+, observatoire des cultures écrites anciennes de l’argile à l’imprimé (ANR-21-ESRE-0005)
 site_author: Équipe Portail Biblissima+
-copyright: Licence Ouverte / Open License 2.0
+copyright: Équipe Portail Biblissima+ — Licence Ouverte / Open License 2.0
 repo_url: https://gitlab.huma-num.fr/biblissima/doc.biblissima
 repo_name: Gitlab
 edit_uri: edit/main/docs/
 
 theme:
   name: material
-  locale: fr
+  custom_dir: overrides
+  language: fr
+  font: 
+    text: Source Sans Pro
+  logo: assets/biblissima-monogramme-blanc.png
+  favicon: assets/favicon.png
+  palette:
+    scheme: biblissima
+    #primary: amber
+    accent: blue
+  features:
+    - navigation.tracking
+    - navigation.sections
+    - navigation.top
+    - navigation.tabs
+    - navigation.indexes
+    - toc.follow
+
+extra_css:
+  - stylesheets/extra.css
+
+extra:
+  #generator: false
+  #analytics:
+    #provider: matomo # uncomment to enable matomo
+    #property: foobar
+  issue_url: https://gitlab.huma-num.fr/biblissima/doc.biblissima/-/issues/new
+  issue_label: Suggérer une modification
+  social:
+    - icon: fontawesome/brands/twitter 
+      link: https://twitter.com/biblissima
+      name: Twitter @biblissima
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/channel/UCaHWzwUV0xBAQ-sEdE9EtKg
+      name: Chaîne Youtube
+    - icon: fontawesome/solid/envelope
+      link: https://projet.biblissima.fr/fr/newsletter
+      name: Lettre d'information Biblissima+
+    - icon: fontawesome/brands/github 
+      link: https://github.com/biblissima/
+      name: Codes source sur Github
+    - icon: fontawesome/brands/gitlab
+      link: https://gitlab.huma-num.fr/biblissima
+      name: Codes source sur Gitlab
 
 markdown_extensions:
   - toc:
       permalink: True
   - sane_lists
   - attr_list
+  - md_in_html
+  - pymdownx.superfences
   - admonition
   - footnotes
   - smarty
+  - tables
+  - pymdownx.details
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+
+plugins:
+  - search
+  - git-revision-date-localized
+
+nav:
+  - Contribuer à Biblissima:
+    - Vademecum Biblissima+: vademecum-biblissima.md
+  - Interopérabilité IIIF:
+    - iiif/index.md
+    - Introduction à IIIF: iiif/introduction-iiif.md
+    - Exemples d'entrepôts IIIF: iiif/entrepots-iiif.md
+  - Portail :
+    - portail/index.md
+    - Format pivot: portail/format-pivot-biblissima.md
+    - Journal des mises à jour et développements: portail/changelog.md
+  - Référentiels :
+    - referentiels/index.md
+  - API: api.md
