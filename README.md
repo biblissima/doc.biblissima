@@ -62,7 +62,7 @@ Pour déployer le site sur le serveur de développement ou de production :
 $ ./deploy.sh dev
 
 // cc-web
-$ $ ./deploy.sh prod
+$ ./deploy.sh prod
 ```
 
 ## Documentation
