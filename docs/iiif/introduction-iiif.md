@@ -157,7 +157,7 @@ Ces métadonnées techniques sur l’image comprennent notamment :
     - Une implémentation dynamique passe par l'installation et le paramétrage d'un serveur d'images IIIF (voir la [liste des logiciels existants](https://github.com/IIIF/awesome-iiif/#image-servers)). Cela permet de bénéficier des principales fonctionnalités de l'API Image (level 1 ou 2).
     - Une implémentation statique est une alternative possible à l'installation d'un logiciel dédié, qui consiste à pré-générer des tuiles d'images (level 0 de l'API Image) et de les délivrer via un serveur Web classique. NB : cela limite les possibilités de manipulation dynamique de l'image, avec ce type d'implémentation il n'est par exemple pas possible de citer une région arbitraire au sein d'une image.
     - Pour les images en hauté résolution, il est conseillé d'opter pour un format optimisé pour le zoom progressif : JPEG2000 ou TIFF Pyramidal.
-    - Il convient de respecter certains [pré-requis techniques](vademecum-biblissima.md#pre-requis-techniques-du-serveur-iiif) dans la configuration du serveur (protocole HTTPS et entêtes HTTP CORS).
+    - Il convient de respecter certains [pré-requis techniques](../vademecum-biblissima.md#pre-requis-techniques-du-serveur-iiif) dans la configuration du serveur (protocole HTTPS et entêtes HTTP CORS).
 
 
 ### API Présentation
@@ -205,7 +205,7 @@ Les deux images ci-dessous permettent d'illustrer où sont mobilisées les deux 
     - Bayerische Staatsbibliothek : _Logbook of a Ship of Sir Francis Drake’s Last Voyage_ ([Manifeste JSON](https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00110131/manifest) -- [Ouvrir dans Mirador](https://portail.biblissima.fr/m3/?theme=dark&context=collection&iiif-content=https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00110131/manifest))
 
     Musées :
-    
+
     - Getty Museum : _Irises_ ([Manifeste JSON](https://media.getty.edu/iiif/manifest/53be857e-41e8-4198-b45d-2e0f52d3051b) -- [Ouvrir dans Mirador](https://portail.biblissima.fr/m3/?theme=dark&context=collection&iiif-content=https://media.getty.edu/iiif/manifest/53be857e-41e8-4198-b45d-2e0f52d3051b))
     - Statens Museum for Kunst : _View of the Interior of the Colosseum_ ([Manifeste JSON](https://api.smk.dk/api/v1/iiif/manifest/?id=KMS1776) -- [Ouvrir dans Mirador](https://portail.biblissima.fr/m3/?theme=dark&context=collection&iiif-content=https://api.smk.dk/api/v1/iiif/manifest/?id=KMS1776))
     - The Royal Collection Trust : _Raphael Collection portfolio 26_ ([Manifeste JSON](https://rct.resourcespace.com/iiif/970585/) -- [Ouvrir dans Mirador](https://portail.biblissima.fr/m3/?theme=dark&context=collection&iiif-content=https://rct.resourcespace.com/iiif/970585/))
@@ -249,7 +249,7 @@ Les deux images ci-dessous permettent d'illustrer où sont mobilisées les deux 
     - Ces données nécessaires à la génération d'un Manifeste peuvent être structurées dans différents formats source (METS/MODS, XML-TEI, XML-EAD, tableur type CSV, base de données etc.).
     - L'API Présentation est le plus souvent utilisée de façon conjointe avec l'API Image pour gérer le zoom et l'affichage des différents dérivés d'une image (vignette, aperçu). Dans ce cas la génération d'un Manifeste implique d'être capable d'établir le lien entre une vue au sein de l'objet (par exemple une page de livre) et le service API Image de l'image correspondante.
     - Il est conseillé de vérifier la conformité des Manifestes en utilisant le [validateur officiel](https://presentation-validator.iiif.io/).
-    - Il convient de respecter de certains [pré-requis techniques](vademecum-biblissima.md#pre-requis-techniques-du-serveur-iiif) dans la configuration du serveur qui expose les Manifests (protocole HTTPS et entêtes HTTP CORS).
+    - Il convient de respecter de certains [pré-requis techniques](../vademecum-biblissima.md#pre-requis-techniques-du-serveur-iiif) dans la configuration du serveur qui expose les Manifests (protocole HTTPS et entêtes HTTP CORS).
 
 
 ## Pour approfondir
