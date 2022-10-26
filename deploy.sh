@@ -18,7 +18,7 @@ elif [ "$ENV" == "prod" ] ; then
  if [[ $REPLY =~ ^[Yy]$ ]]
  then
    REMOTE="biblissima-web-PROD"
-   DEST="/var/www/html_gitlab/doc.biblissima.fr"
+   DEST="/var/www/html/doc.biblissima.fr"
  fi
 else
   echo "WARNING: l'environnement doit être passé en argument ! (valeur : dev ou prod)"
