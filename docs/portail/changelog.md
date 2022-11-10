@@ -8,6 +8,22 @@ Depuis avril 2017, le Portail est régulièrement enrichi de nouveaux jeux de do
 
 ## 2022
 
+**10/11/2022**
+
+- Intégration des notices de manuscrits et incunables numérisés de :
+
+    - **Bibliothèque municipale de Grenoble** (Pagella - Patrimoine Grenoblois en ligne) ([pagella.bm-grenoble.fr](https://pagella.bm-grenoble.fr))
+    - **Bibliothèque municipale de Rouen** (Rotomagus - Bibliothèque numérique patrimoniale de Rouen) ([www.rotomagus.fr](https://www.rotomagus.fr))
+
+
+**27/10/2022**
+
+- Intégration des notices des chartes, des manuscrits et incunables numérisés de :
+
+    - **CBMA - _Corpus Burgundiae Medii Aevi_, Corpus de la Bourgogne du Moyen Âge** ([www.cbma-project.eu](http://www.cbma-project.eu))
+    - **Mémonum - bibliothèque numérique patrimoniale de Montpellier 3M** ([memonum-mediatheques.montpellier3m.fr](https://memonum-mediatheques.montpellier3m.fr))
+
+
 **21/10/2022**
 
 - Intégration des notices des catalogues des **manuscrits classiques latins des bibliothèques de France. Tome I : Agen-Évreux** publiées dans la série _Documents, études et répertoires de l'Institut de Recherche et d'Histoire des Textes, XLI_ et disponibles sur Persée ([www.persee.fr/doc/dirht_0073-8212_1989_cat_41_1](https://www.persee.fr/doc/dirht_0073-8212_1989_cat_41_1))

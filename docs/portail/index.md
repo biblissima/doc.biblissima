@@ -8,7 +8,7 @@ Il est le point d'entrée dans les données de l'infrastructure numérique Bibli
 
 Le Portail agrège des ressources électroniques hétérogènes produites par les partenaires du consortium Biblissima (2012-2021) puis Biblissima+ (2021-2029). Il a pour but de mettre en interopérabilité collections patrimoniales, archives de la recherche et littérature scientifique (documentation écrite originale, collections de sources numérisées, bibliographie et archives de la recherche la concernant).
 
-Certains ressources disponibles dans le Portail ont été traitées et intégrées à l'initiative de l'équipe Biblissima, notamment dans le cadre d'expérimentations autour de IIIF, ou sont le résultat de sollicitations de la part d'institutions ne faisant pas partie du consortium.
+Certaines ressources disponibles dans le Portail ont été traitées et intégrées à l'initiative de l'équipe Biblissima, notamment dans le cadre d'expérimentations autour de IIIF, ou sont le résultat de sollicitations de la part d'institutions ne faisant pas partie du consortium.
 
 !!! note "A propos"
 
@@ -16,7 +16,7 @@ Certains ressources disponibles dans le Portail ont été traitées et intégré
 
 ## Périmètre de données
 
-La version courante du Portail Biblissima intègre des jeux de données issus de **22 sources** :
+La version courante du Portail Biblissima intègre des jeux de données issus de **26 sources** :
 
 | Ressource  | Institution/équipe  | Description   |
 | ---------- | ------------------- | ------------- |
@@ -43,8 +43,12 @@ La version courante du Portail Biblissima intègre des jeux de données issus de
 | [Biblioteca Nacional Digital (BND)](https://bndigital.bnportugal.gov.pt) | Biblioteca Nacional de Portugal | Notices et numérisations des manuscrits et incunables |
 | [Parker on the Web](https://parker.stanford.edu) | Stanford University Libraries | Notices et numérisations des manuscrits de la Parker Library (Corpus Christi College, Cambridge) |
 | [Persée - DER-IRHT, XLI](https://www.persee.fr/doc/dirht_0073-8212_1989_cat_41_1) | Persée | Notices des catalogues des manuscrits classiques latins des bibliothèques de France. Tome I : Agen-Évreux |
+| [CBMA - Corpus Burgundiae Medii Aevi](http://www.cbma-project.eu) | LaMOP | Numérisations de chartes médiévales de Bourgogne |
+| [Mémonum](https://memonum-mediatheques.montpellier3m.fr) | Médiathèque de Montpellier | Notices et numérisations des manuscrits et incunables |
+| [Pagella](https://pagella.bm-grenoble.fr) | Bibliothèque municipale de Grenoble | Notices et numérisations des manuscrits et incunables |
+| [Rotomagus](https://www.rotomagus.fr) | Bibliothèque municipale de Rouen | Notices et numérisations des manuscrits et incunables |
 
-Voir la [liste complète des ressources électroniques](https://projet.biblissima.fr/fr/ressources/ressources-biblissima) situées dans le périmètre de l’Equipex Biblissima (2012-2021) et Biblissima+ (2021-2029).
+Voir la [liste complète des autres ressources électroniques](https://projet.biblissima.fr/fr/ressources/ressources-biblissima) situées dans le périmètre de l’Equipex Biblissima (2012-2021) et Biblissima+ (2021-2029).
 
 
 ## Gestion, traitement et intégration des données

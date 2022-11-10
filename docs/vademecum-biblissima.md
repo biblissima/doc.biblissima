@@ -36,9 +36,9 @@ Les équipes et projets partenaires de Biblissima+ sont **fortement encouragés 
 
 Le mode opératoire pour contribuer aux référentiels peut être résumé ainsi :
 
-1. en amont le partenaire **aligne ses données** avec le ou les référentiels pertinents : cote, personne, organisation, lieu, oeuvre ou descripteur iconographique.
+1. en amont le partenaire **aligne ses données** avec le ou les référentiels pertinents : cotes, personnes, organisations, lieux, oeuvres ou descripteurs iconographiques.
 
-    - cette opération peut se faire soit au fil de l’eau (au cours du du travail de saisie ou de balisage), soit a posteriori à partir d’un export (alignement par lots) ;
+    - cette opération peut se faire soit au fil de l’eau (au cours du travail de saisie ou de balisage), soit a posteriori à partir d’un export (alignement par lots) ;
 
 2. une fois identifiées les entités absentes du référentiel, le partenaire peut :
 
