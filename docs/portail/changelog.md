@@ -73,6 +73,11 @@ Depuis avril 2017, le Portail est régulièrement enrichi de nouveaux jeux de do
     - **Médiathèque de Moulins** ([mediatheques.agglo-moulins.fr](https://mediatheques.agglo-moulins.fr))
     - **Bibliothèque d'État et universitaire de Brême** ([brema.suub.uni-bremen.de](https://brema.suub.uni-bremen.de))
 
+**24/11/2021**
+
+- Mise en ligne d'une [nouvelle interface de recherche et de visualisation](https://portail.biblissima.fr/fr/iconography) de l’iconographie du Portail (enluminures et décors de manuscrits ou d'imprimés).
+- Mise en ligne de diagrammes de cooccurrence des descripteurs iconographiques sur les pages "Descripteur" ([exemple](https://portail.biblissima.fr/fr/ark:/43093/desc3460297da8a77dc64f23946f8cf1b4e70fe70220#react))
+
 **29/06/2021**
 
 - Intégration des notices des **manuscrits classiques latins de la Bibliothèque Vaticane** publiées dans la série _Documents, études et répertoires de l'Institut de Recherche et d'Histoire des Textes, XXI_ (Tomes I-II-III) et disponibles sur Persée ([www.persee.fr/collection/dirht](https://www.persee.fr/collection/dirht))
