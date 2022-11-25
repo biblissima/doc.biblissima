@@ -72,7 +72,7 @@ L’équipe Portail Biblissima+ prend en charge les modes d’exposition et de p
 | Point d’accès Collections IIIF | IIIF Presentation API [2.1](https://iiif.io/api/presentation/2.1/#collection) ou [3.0](https://iiif.io/api/presentation/3.0/#51-collection) | [Durham University](https://iiif.durham.ac.uk/manifests/trifle/collection/index) |
 | Entrepôt RDF avec point d’accès SPARQL | [SPARQL 1.1 Query Language](https://www.w3.org/TR/sparql11-query/) | [data.bnf.fr](https://data.bnf.fr/sparql/) |
 | Dépôt d’un jeu de données dans un entrepôt fournissant un identifiant pérenne (ex. DOI) | | |
-| Autre API Web (JSON ou XML) | [DTS](https://distributed-text-services.github.io/specifications/) ; [Hydra](https://www.hydra-cg.com) ; [Elasticsearch](https://www.elastic.co/guide/en/elasticsearch/reference/current/rest-apis.html) | |
+| Autre API Web (JSON ou XML) | [Activity Streams](https://www.w3.org/TR/activitystreams-core/) ; [DTS](https://distributed-text-services.github.io/specifications/) ; [Hydra](https://www.hydra-cg.com) ; [Elasticsearch](https://www.elastic.co/guide/en/elasticsearch/reference/current/rest-apis.html) | |
 | Export dynamique au format pivot Biblissima | [Format pivot Biblissima](portail/format-pivot-biblissima.md) | |
 
 !!! attention "Important"
