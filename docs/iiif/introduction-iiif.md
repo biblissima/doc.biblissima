@@ -256,6 +256,7 @@ Les deux images ci-dessous permettent d'illustrer où sont mobilisées les deux 
 
 **Quelques ressources utiles en français :**
 
+- [IIIF: découverte et interopérabilité sans frontières des images patrimoniales](https://www.culture.gouv.fr/fr/Thematiques/Enseignement-superieur-et-Recherche/La-revue-Culture-et-Recherche/La-recherche-culturelle-a-l-international), _Culture et Recherche_ n°143, 2022, p. 111-117
 - [Vidéo de la session régionale IIIF France](https://projet.biblissima.fr/fr/formations-evenements/conference-iiif-2021-session-regionale-iiif-france) de la Conférence internationale IIIF 2021 (24 juin 2021).
 - [Vidéos et supports de présentations du séminaire IIIF360](https://projet.biblissima.fr/fr/evenements/rendez-vous-iiif360-2021) (24 mars 2021).
 - [Visualisation et fouille des données : IIIF](https://github.com/regisrob/Atelier_IIIF_TD_Master_CESR_2020) (Régis Robineau). Cours de Master 2 « Mediation Numérique de la Culture et des Patrimoines » (École Supérieure en Intelligence des Patrimoines, CESR, Université de Tours)
