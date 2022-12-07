@@ -32,8 +32,8 @@ extra_css:
 
 extra:
   #generator: false
-  #analytics:
-    #provider: matomo # uncomment to enable matomo
+  analytics:
+    provider: matomo # uncomment to enable matomo
     #property: foobar
   issue_url: https://gitlab.huma-num.fr/biblissima/doc.biblissima/-/issues/new
   issue_label: Suggérer une modification
@@ -83,6 +83,7 @@ nav:
     - iiif/index.md
     - Introduction à IIIF: iiif/introduction-iiif.md
     - Exemples d'entrepôts IIIF: iiif/entrepots-iiif.md
+    - Module de formation à IIIF: https://doc.biblissima.fr/formation-iiif/
   - Portail :
     - portail/index.md
     - Format pivot: portail/format-pivot-biblissima.md
