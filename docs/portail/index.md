@@ -16,7 +16,7 @@ Certaines ressources disponibles dans le Portail ont été traitées et intégr�
 
 ## Périmètre de données
 
-La version courante du Portail Biblissima intègre des jeux de données issus de **26 sources** :
+La version courante du Portail Biblissima intègre des jeux de données issus de **30 sources** :
 
 | Ressource  | Institution/équipe  | Description   |
 | ---------- | ------------------- | ------------- |
@@ -47,6 +47,9 @@ La version courante du Portail Biblissima intègre des jeux de données issus de
 | [Mémonum](https://memonum-mediatheques.montpellier3m.fr) | Médiathèque de Montpellier | Notices et numérisations des manuscrits et incunables |
 | [Pagella](https://pagella.bm-grenoble.fr) | Bibliothèque municipale de Grenoble | Notices et numérisations des manuscrits et incunables |
 | [Rotomagus](https://www.rotomagus.fr) | Bibliothèque municipale de Rouen | Notices et numérisations des manuscrits et incunables |
+| [Mmmonk](https://www.mmmonk.be) | Bibliothèques de Bruges (bibliothèque publique et Grand Séminaire) | Notices et numérisations des manuscrits et imprimés anciens |
+| [BVH Fac-similés](http://www.bvh.univ-tours.fr) | BVH Fac-similés | Notices et numérisations de manuscrits et imprimés de la Renaissance |
+| [Persée - DER-IRHT, LXXXI](https://www.persee.fr/doc/dirht_0073-8212_2011_cat_81_1_977) | Persée | Notices du catalogue des manuscrits astrologiques latins conservés à la Bayerische Staatsbibliothek de Munich (<em>Catalogus Codicum Astrologorum Latinorum. I</em>) |
 
 Voir la [liste complète des autres ressources électroniques](https://projet.biblissima.fr/fr/ressources/ressources-biblissima) situées dans le périmètre de l’Equipex Biblissima (2012-2021) et Biblissima+ (2021-2029).
 

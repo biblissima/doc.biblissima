@@ -6,7 +6,21 @@ Depuis avril 2017, le Portail est régulièrement enrichi de nouveaux jeux de do
 
 [Voir le périmètre actuel des données du Portail](index.md#perimetre-de-donnees).
 
+## 2023
+
+**12/01/2023**
+
+- Intégration des notices du **Catalogus Codicum Astrologorum Latinorum. I. Les manuscrits astrologiques latins conservés à la Bayerische Staatsbibliothek de Munich**, éd. D. Juste, publié dans la série <em>Documents, études et répertoires de l’Institut de Recherche et d’Histoire des Textes, LXXXI</em>, 2011 et disponible sur Persée ([www.persee.fr/doc/dirht_0073-8212_2011_cat_81_1_977](https://www.persee.fr/doc/dirht_0073-8212_2011_cat_81_1_977))
+
+**04/01/2023**
+
+- Intégration d'un premier lot de manuscrits et imprimés numérisés des **Bibliothèques Virtuelles Humanistes (BVH)** (CESR, Tours) ([bvh.univ-tours.fr](http://www.bvh.univ-tours.fr))
+
 ## 2022
+
+**12/12/2022**
+
+- Intégration des notices de manuscrits numérisés des bibliothèques de Bruges (bibliothèque publique et bibliothèque du Grand Séminaire) issues du projet **Mmmonk** (_Medieval Monastic Manuscripts – Open – Network – Knowledge_) ([mmmonk.be](https://www.mmmonk.be))
 
 **10/11/2022**
 
