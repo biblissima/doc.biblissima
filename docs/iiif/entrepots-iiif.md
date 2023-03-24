@@ -1,6 +1,6 @@
 # Exemples d'entrepôts IIIF
 
-Dès 2013, l'ÉquipEx Biblissima (2012-2021) a soutenu l'adoption et l'implémentation de IIIF dans plusieurs bibliothèques numériques de manuscrits et imprimés anciens conservés en France : 
+Dès 2013, l'ÉquipEx Biblissima (2012-2021), devenu Biblissima+ (2021-2029), a soutenu l'adoption et l'implémentation de IIIF dans plusieurs bibliothèques numériques de manuscrits et imprimés anciens conservés en France : 
 
 - **Gallica** (BnF) ;
 - **BVMM** - Bibliothèque virtuelle des manuscrits médiévaux (IRHT-CNRS) ;
@@ -103,4 +103,43 @@ https://bvmm.irht.cnrs.fr/iiif/{ID}/manifest
 
 ## BVH (CESR)
 
-_L'implémentation de IIIF pour la partie "Fac-Similés" des Bibliothèques virtuelles humanistes est en cours de réalisation._
+Le programme « [Bibliothèques Virtuelles Humanistes](http://www.bvh.univ-tours.fr) », porté par le Centre d’études supérieures de la Renaissance (CESR), dispose d'un volet « Fac-Similés » donnant accès à une sélection d'ouvrages de la Renaissance numérisés en Région Centre et dans les établissements partenaires. L'implémentation des API IIIF a été mise en oeuvre en 2021-2022 par l'équipe BVH, avec le soutien de l'EquipEx Biblissima+ et du service IIIF360.
+
+### API Image
+
+Compatibilité :
+
+- Version : **Image API 3.0** ([https://iiif.io/api/image/3.0/](https://iiif.io/api/image/3.0/))
+- Niveau de conformité : **Level 2** ([https://iiif.io/api/image/3.0/compliance/](https://iiif.io/api/image/3.0/compliance/))
+
+Modèles d'URL :
+
+``` title="Requête d'image :"
+https://iiif.bvh.univ-tours.fr/iiif/3/{ID_Image}/{region}/{size}/{rotation}/{quality}.{format}
+```
+
+``` title="Requête d'information sur l'image :"
+https://iiif.bvh.univ-tours.fr/iiif/3/{ID_Image}/info.json
+```
+
+La partie `{ID_Image}` correspond à l'élément [identifier](https://iiif.io/api/image/3.0/#3-identifier) de l'URL IIIF (ici l'identifiant est une partie du chemin de l'image sur le serveur des BVH. Ex : `FR/Tours/B372616101/B372616101_Ms_2102/JP2/B372616101_Ms_2102_0022`).
+
+!!! example "Exemple"
+
+    - [https://iiif.bvh.univ-tours.fr/iiif/3/FR%2FTours%2FB372616101%2FB372616101_Ms_2102%2FJP2%2FB372616101_Ms_2102_0022/full/,600/0/default.jpg](https://iiif.bvh.univ-tours.fr/iiif/3/FR%2FTours%2FB372616101%2FB372616101_Ms_2102%2FJP2%2FB372616101_Ms_2102_0022/full/,600/0/default.jpg) (image redimensionnée proportionnellement à 600 pixels de hauteur)
+
+### API Présentation
+
+Compatibilité :
+
+- Version : **Presentation API 3.0** ([https://iiif.io/api/presentation/3.0/](https://iiif.io/api/presentation/3.0/))
+
+Modèle d'URL : 
+
+``` title="Requête d'un Manifeste :"
+https://iiif.bvh.univ-tours.fr/data/manifests/{ID}_manifest.json
+```
+
+!!! example "Exemple"
+
+    - URL de Manifest JSON-LD : [https://iiif.bvh.univ-tours.fr/data/manifests/B372616101_Ms_2102_manifest.json](https://iiif.bvh.univ-tours.fr/data/manifests/B372616101_Ms_2102_manifest.json) (Tours, Bibliothèque municipale, Ms. 2102)
