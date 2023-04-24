@@ -8,9 +8,14 @@ Depuis avril 2017, le Portail est régulièrement enrichi de nouveaux jeux de do
 
 ## 2023
 
+**20/04/2023**
+
+- Mise en place d'un mécanisme automatisé de mise à jour de certaines données du portail (instance CubicWeb) à partir de la plateforme des référentiels d’autorité de Biblissima+ (instance Wikibase). Les entités Lieu, Personne, Collectivité, Manuscrit, Imprimé, Oeuvre et Descripteur sont concernées par cette procédure automatisée.
+
+
 **12/01/2023**
 
-- Intégration des notices du **Catalogus Codicum Astrologorum Latinorum. I. Les manuscrits astrologiques latins conservés à la Bayerische Staatsbibliothek de Munich**, éd. D. Juste, publié dans la série <em>Documents, études et répertoires de l’Institut de Recherche et d’Histoire des Textes, LXXXI</em>, 2011 et disponible sur Persée ([www.persee.fr/doc/dirht_0073-8212_2011_cat_81_1_977](https://www.persee.fr/doc/dirht_0073-8212_2011_cat_81_1_977))
+- Intégration des notices du **Catalogus Codicum Astrologorum Latinorum. I. Les manuscrits astrologiques latins conservés à la Bayerische Staatsbibliothek de Munich**, éd. D. Juste, publié dans la série _Documents, études et répertoires de l’Institut de Recherche et d’Histoire des Textes, LXXXI_, 2011 et disponible sur Persée ([www.persee.fr/doc/dirht_0073-8212_2011_cat_81_1_977](https://www.persee.fr/doc/dirht_0073-8212_2011_cat_81_1_977))
 
 **04/01/2023**
 
