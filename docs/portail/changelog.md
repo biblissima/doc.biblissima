@@ -8,6 +8,10 @@ Depuis avril 2017, le Portail est régulièrement enrichi de nouveaux jeux de do
 
 ## 2023
 
+**09/06/2023**
+
+- Intégration des notices de manuscrits médiévaux occidentaux numérisés de **Leiden University Libraries** (bibliothèques de l'université de Leyde) ([digitalcollections.universiteitleiden.nl](https://digitalcollections.universiteitleiden.nl))
+
 **24/05/2023**
 
 - Intégration des notices du **Catalogus Codicum Astrologorum Latinorum. II. Les manuscrits astrologiques latins conservés à la Bibliothèque nationale de France à Paris**, éd. D. Juste, publié dans la série _Documents, études et répertoires de l’Institut de Recherche et d’Histoire des Textes, LXXXIV, 2015_, et disponible sur Persée ([www.persee.fr/doc/dirht_0073-8212_2015_cat_84_1](https://www.persee.fr/doc/dirht_0073-8212_2015_cat_84_1))
