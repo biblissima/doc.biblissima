@@ -21,5 +21,5 @@ Ce site rassemble la documentation technique de **l'infrastructure numérique de
 
 !!! quote ""
 
-    _Biblissima+ bénéficie d’une aide de l'Etat gérée par l'ANR au titre du Programme d’investissements d’avenir, portant la référence ANR-21-ESRE-0005._
+    _Biblissima+ bénéficie d’une aide de l'Etat gérée par l'ANR au titre du Programme d’investissements d’avenir intégré à France 2030, portant la référence ANR-21-ESRE-0005._
 
