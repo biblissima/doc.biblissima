@@ -8,6 +8,11 @@ Depuis avril 2017, le Portail est régulièrement enrichi de nouveaux jeux de do
 
 ## 2023
 
+**22/06/2023**
+
+- Intégration des notices de manuscrits médiévaux numérisés de la **bibliothèque universitaire de Gand** ([lib.ugent.be](https://lib.ugent.be))
+
+
 **09/06/2023**
 
 - Intégration des notices de manuscrits médiévaux occidentaux numérisés de **Leiden University Libraries** (bibliothèques de l'université de Leyde) ([digitalcollections.universiteitleiden.nl](https://digitalcollections.universiteitleiden.nl))

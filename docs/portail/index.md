@@ -16,7 +16,7 @@ Certaines ressources disponibles dans le Portail ont été traitées et intégr�
 
 ## Périmètre de données
 
-La version courante du Portail Biblissima intègre des jeux de données issus de **32 sources** :
+La version courante du Portail Biblissima intègre des jeux de données issus de **33 sources** :
 
 | Ressource  | Institution/équipe  | Description   |
 | ---------- | ------------------- | ------------- |
@@ -52,6 +52,7 @@ La version courante du Portail Biblissima intègre des jeux de données issus de
 | [Persée - DER-IRHT, LXXXI](https://www.persee.fr/doc/dirht_0073-8212_2011_cat_81_1_977) | Persée | Notices du catalogue des manuscrits astrologiques latins conservés à la Bayerische Staatsbibliothek de Munich (<em>Catalogus Codicum Astrologorum Latinorum. I</em>) |
 | [Persée - DER-IRHT, LXXXIV](https://www.persee.fr/doc/dirht_0073-8212_2015_cat_84_1) | Persée | Notices du catalogue des manuscrits astrologiques latins conservés à la Bibliothèque nationale de France à Paris (<em>Catalogus Codicum Astrologorum Latinorum. II</em>) |
 | [Leiden University Libraries - Digital collections](https://digitalcollections.universiteitleiden.nl) | Universiteitsbibliotheek Leiden | Notices et numérisations des manuscrits médiévaux occidentaux |
+| [Bibliothèque universitaire de Gand - Bibliothèque numérique](https://lib.ugent.be) | Universiteitsbibliotheek Gent | Notices et numérisations des manuscrits médiévaux |
 
 Voir la [liste complète des autres ressources électroniques](https://projet.biblissima.fr/fr/ressources/ressources-biblissima) situées dans le périmètre de l’Equipex Biblissima (2012-2021) et Biblissima+ (2021-2029).
 
