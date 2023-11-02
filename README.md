@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8368640.svg)](https://doi.org/10.5281/zenodo.8368640)
+
 # Documentation de Biblissima+
 
 Ce site rassemble la documentation technique de l'infrastructure numérique de [Biblissima+](https://projet.biblissima.fr) (2021-2029), _Observatoire des cultures écrites anciennes de l’argile à l’imprimé_ (ANR-21-ESRE-0005).
