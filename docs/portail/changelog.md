@@ -2,11 +2,35 @@
 
 Cette page présente les principales évolutions et mises à jour du Portail Biblissima au fil du temps.
 
-Depuis avril 2017, le Portail est régulièrement enrichi de nouveaux jeux de données, traités et intégrés par vagues successives.
+Depuis avril 2017, le Portail est régulièrement amélioré et enrichi de nouveaux jeux de données traités et intégrés par vagues successives.
 
-[Voir le périmètre actuel des données du Portail](index.md#perimetre-de-donnees).
+[Voir le périmètre actuel des données du Portail](https://portail.biblissima.fr/fr/data-sources).
 
 ## 2023
+
+**06/11/2023**
+
+- Mise à jour et versement dans le Portail des données de **Gallica (BnF)** agrégées initialement dans le moteur [IIIF-Collections](https://iiif.biblissima.fr/collections/) : cette mise à jour a permis d'enrichir le Portail de près de 17000 numérisations IIIF.
+
+- Mise en place sur les pages "Collection historique" d'un **histogramme de cooccurrences des collections** qui, d'après les données disponibles, ont détenu les mêmes documents manuscrits ou imprimés. L'histogramme est visible dans la section "Anciens possesseurs des documents de cette collection" (exemple : [Librairie royale de Blois](https://portail.biblissima.fr/ark:/43093/coldataba9a53c788fff80366578a8e17d1649850e84317#react)).
+
+- Création d'une page [Sources des données](https://portail.biblissima.fr/fr/data-sources) accessible depuis la page d'accueil du Portail. Elle est alimentée de façon dynamique au fil de l'intégration de nouvelles sources.
+
+- Prise en charge des **numérisations IIIF multiples** sur les pages "Manuscrit" et "Imprimé ancien" :
+    - création dynamique de Collections IIIF pour les entités ayant plusieurs Manifestes IIIF référencés dans les données (exemple : [Smithsonian Institution F1909.1685-1689](https://portail.biblissima.fr/ark:/43093/mdata8816251376b9ff5872daeb6aa341aae7f5687d2c)) ;
+    - ajustement de l'affichage des URL de numérisations et de Manifestes IIIF dans les pages web.
+
+- Adaptations du visualiseur **Mirador 3** :
+    - modifications de la configuration d'initialisation du visualiseur, notamment la mise en place d'un nouveau mode permettant de peupler directement la fenêtre de chargement des Manifestes à partir d'une Collection IIIF ;
+    - mise au point d'un plugin permettant de masquer le bouton "Ajouter une ressource" dans certaines conditions ;
+    - installation et paramétrage d'un nouveau plugin de téléchargement des images.
+
+- Autres améliorations et corrections de bugs :
+    - correction d'un problème de consultation dans Mirador dû à des URI de Canvas en double au sein de certains Manifestes IIIF de descripteur iconographique ;
+    - prise en compte des dates associées aux enluminures de la base Initiale. Ce changement a pour effet de réduire considérablement la barre "sans date" de l'histogramme proposé dans le module [Iconographie](https://portail.biblissima.fr/fr/iconography) du Portail ;
+    - ajout sur les pages "Descripteur" du lien vers le référentiel des descripteurs iconographiques publié sur data.biblissima.fr (exemple : [encrier](https://portail.biblissima.fr/fr/ark:/43093/desc24ce2a33f6cf98eb1e86e2ce96edd05c1f9c7bda)).
+    - divers ajustements et corrections de l'interface web
+
 
 **22/06/2023**
 
