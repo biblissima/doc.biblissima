@@ -8,6 +8,13 @@ Depuis avril 2017, le Portail est régulièrement amélioré et enrichi de nouve
 
 ## 2023
 
+**16/11/2023**
+
+- Intégration des notices de manuscrits médiévaux et imprimés anciens numérisés de la **Bibliothèque interuniversitaire de la Sorbonne** (bibliothèque numérique NuBIS : [nubis.univ-paris1.fr](https://nubis.univ-paris1.fr)).
+
+- Mise en place d'une carte des collections historiques accessible depuis la page d'accueil et les pages "Collectivité" du Portail ([voir la carte](https://portail.biblissima.fr/fr/corporatebody-collection-map)).
+
+
 **06/11/2023**
 
 - Mise à jour et versement dans le Portail des données de **Gallica (BnF)** agrégées initialement dans le moteur [IIIF-Collections](https://iiif.biblissima.fr/collections/) : cette mise à jour a permis d'enrichir le Portail de près de 17000 numérisations IIIF.
