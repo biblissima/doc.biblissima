@@ -6,6 +6,21 @@ Depuis avril 2017, le Portail est régulièrement amélioré et enrichi de nouve
 
 [Voir le périmètre actuel des données du Portail](https://portail.biblissima.fr/fr/data-sources).
 
+## 2024
+
+**08/01/2024**
+
+- Intégration des notices de manuscrits médiévaux et imprimés anciens numérisés de la **bibliothèque municipale d'Albi** (bibliothèque numérique Cécilia du réseau des médiathèques du Grand Albigeois : [cecilia.mediatheques.grand-albigeois.fr](https://cecilia.mediatheques.grand-albigeois.fr)).
+
+- Mise à jour du jeu de données de la Bibliothèque d'État et universitaire de Brême.
+
+- Mise à jour des cotes des incunables de la bibliothèque municipale de Bordeaux.
+
+- Améliorations fonctionnelles :
+    - mise à jour de l'index utilisé par l'autocomplétion après un moissonnage de données depuis data.biblissima.fr ;
+    - ajout d'un indicateur de chargement sur les cartes accessibles depuis la page d'accueil ;
+    - ajout du lien vers le référentiel sur les pages Oeuvres concernées.
+
 ## 2023
 
 **16/11/2023**
