@@ -257,7 +257,7 @@ Les deux images ci-dessous permettent d'illustrer où sont mobilisées les deux 
 **Quelques ressources utiles en français :**
 
 - [Intégrer IIIF dans le projet de refonte du site web de votre service d'archives : éléments pour CCTP et cadre de réponse](https://zenodo.org/doi/10.5281/zenodo.8380226) (Cécile Sajdak, 2023)
-- [Module de formation à IIIF (1 jour)](https://doc.biblissima.fr/formation-iiif/) (Régis Robineau). Site support de la formation organisée le 30 novembre 2022 au Campus Condorcet dans le cadre du Cluster 1 de Biblissima+
+- [Module de formation à IIIF (1 jour)](https://doc.biblissima.fr/formation-iiif/) (Régis Robineau). Site support de la formation organisée en novembre 2022 et novembre 2023 au Campus Condorcet dans le cadre du cluster 1 de Biblissima+
 - [IIIF : découverte et interopérabilité sans frontières des images patrimoniales](https://www.culture.gouv.fr/fr/Thematiques/Enseignement-superieur-et-Recherche/La-revue-Culture-et-Recherche/La-recherche-culturelle-a-l-international), _Culture et Recherche_ n°143, 2022, p. 111-117
 - [Vidéo de la session régionale IIIF France](https://projet.biblissima.fr/fr/formations-evenements/conference-iiif-2021-session-regionale-iiif-france) de la Conférence internationale IIIF 2021 (24 juin 2021).
 - [Vidéos et supports de présentations du séminaire IIIF360](https://projet.biblissima.fr/fr/evenements/rendez-vous-iiif360-2021) (24 mars 2021).
