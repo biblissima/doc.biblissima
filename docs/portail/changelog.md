@@ -8,6 +8,10 @@ Depuis avril 2017, le Portail est régulièrement amélioré et enrichi de nouve
 
 ## 2024
 
+**06/02/2024**
+
+- Intégration des notices de manuscrits médiévaux et imprimés anciens numérisés de **l'École Nationale Supérieure des Beaux-Arts de Paris** (ENSBA - Bibliothèque numérique Alexandrine [alexandrine-bibnum.beauxartsparis.fr](https://alexandrine-bibnum.beauxartsparis.fr)).
+
 **08/01/2024**
 
 - Intégration des notices de manuscrits médiévaux et imprimés anciens numérisés de la **bibliothèque municipale d'Albi** (bibliothèque numérique Cécilia du réseau des médiathèques du Grand Albigeois : [cecilia.mediatheques.grand-albigeois.fr](https://cecilia.mediatheques.grand-albigeois.fr)).
