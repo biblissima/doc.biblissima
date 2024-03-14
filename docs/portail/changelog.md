@@ -8,6 +8,15 @@ Depuis avril 2017, le Portail est régulièrement amélioré et enrichi de nouve
 
 ## 2024
 
+**07/03/2024**
+
+- Intégration des données du projet **[Fabliaux](https://projet.biblissima.fr/fr/appels-projets/projets-retenus/fabliaux)** (IHRIM, CIHAM) &ndash; corpus numérique de fabliaux français du Moyen Âge publié dans la Base de Français Médiéval (BFM) &ndash; lauréat en 2022 de l'appel à manifestation d'intérêt Biblissima+.
+
+- Améliorations fonctionnelles :
+    - affichage d'une nouvelle section "Éditions numériques" sur les pages Texte (exemple : [Cortebarbe : Les trois Aveugles de Compiegne](https://portail.biblissima.fr/fr/ark:/43093/tdata3a17b8aa31a4785f4e89605d28dd1ea48ce1f267)) ;
+    - ajout d'un bouton "Voir tous les résultats" dans l'autocomplétion ;
+    - révision de l'ordre de tri des suggestions dans l'autocomplétion.
+
 **06/02/2024**
 
 - Intégration des notices de manuscrits médiévaux et imprimés anciens numérisés de **l'École Nationale Supérieure des Beaux-Arts de Paris** (ENSBA - Bibliothèque numérique Alexandrine [alexandrine-bibnum.beauxartsparis.fr](https://alexandrine-bibnum.beauxartsparis.fr)).
