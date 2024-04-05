@@ -90,4 +90,15 @@ nav:
     - Journal des mises à jour et développements: portail/changelog.md
   - Référentiels :
     - referentiels/index.md
-  - API: api.md
+  - API: 
+      - Ouverture des données : api/api.md
+      - Référentiels Biblissima (Wikibase) : 
+        - API Mediawiki/Wikibase : api/api-mediawiki.md
+        - Interface de données liées : api/interface-donnees-liees.md
+        - Point d'accès SPARQL : api/sparql.md
+        - API de réconciliation de données : 
+          - Réconcilier ses données : api/api-reconciliation.md
+          - Informations techniques : api/reconciliation-infos-techniques.md
+          - Réconcilier avec OpenRefine : api/openrefine.md
+      - Portail Biblissima : 
+        - API Présentation (IIIF) : api/api-presentation.md
