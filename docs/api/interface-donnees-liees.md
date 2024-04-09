@@ -1,6 +1,6 @@
- Chaque entité ou propriété au sein de la plateforme [data.biblissima.fr](data.biblissima.fr) est identifiée dans le Web de données par une URI construite sous la forme suivante :
+ Chaque entité ou propriété au sein de la plateforme [data.biblissima.fr](https://data.biblissima.fr) est identifiée dans le Web de données par une URI construite sous la forme suivante :
 
-``` 
+```
 https://data.biblissima.fr/entity/Q{id}
 ```
 
@@ -10,13 +10,13 @@ Les données brutes d’une entité individuelle sont disponibles au format JSON
 
 Elles sont accessibles de deux façons :
 
-1. par le mécanisme de négociation de contenu
-2. par l'URL Special:EntityData, en suffixant l'extension correspondant au format souhaité (.json, .rdf, .ttl ou .nt) :
+1. par le mécanisme de [négociation de contenu](https://developer.mozilla.org/fr/docs/Web/HTTP/Content_negotiation)
+2. par l'URL `Special:EntityData`, en suffixant l'extension correspondant au format souhaité (.json, .rdf, .ttl ou .nt) :
 
 ``` 
-https://data.biblissima.fr/w/Spécial:EntityData/Q{id}.ext
+https://data.biblissima.fr/w/Spécial:EntityData/Q{id}.extension
 ```
 
 Exemple : [https://data.biblissima.fr/w/Spécial:EntityData/Q2785.json](https://data.biblissima.fr/w/Spécial:EntityData/Q2785.json)
 
-Lire plus d’informations sur [https://www.wikidata.org/wiki/Wikidata:Data_access/fr#Interface_données_reliées](https://www.wikidata.org/wiki/Wikidata:Data_access/fr#Interface_données_reliées) 
+Lire plus d’informations sur la page [Accès aux données](https://www.wikidata.org/wiki/Wikidata:Data_access/fr#Linked_Data_Interface_(URI)) de Wikidata.

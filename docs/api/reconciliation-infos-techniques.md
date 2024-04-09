@@ -1,11 +1,11 @@
 Cette section présente les différents **endpoints** de l'API de réconciliation de données, de même que les **paramètres** utilisables pour chacun d'eux. 
 
-Elle s'adresse à ceux qui souhaiteraient interroger l'API de réconciliation indépendamment de l'interface graphique d'un client compatible (OpenRefine par exemple), ou qui ont pour projet de développer un outil visant à tirer partie de ses fonctionnalités.
+Elle s'adresse à ceux qui souhaiteraient interroger l'API de réconciliation indépendamment de l'interface graphique d'un client compatible (OpenRefine par exemple), ou qui ont pour projet de développer un outil visant à tirer parti de ses fonctionnalités.
 
 !!! info ""
 	Version de l'API : 0.1
 
-## Endpoints 
+## Endpoints
 
 ### Service Reconciliation
 
@@ -16,7 +16,7 @@ Il s’agit du service de **réconciliation** en tant que tel. En réponse à un
 - Français : [https://data.biblissima.fr/reconcile/fr/api](https://data.biblissima.fr/reconcile/fr/api) 
 - Anglais : [https://data.biblissima.fr/reconcile/en/api](https://data.biblissima.fr/reconcile/en/api) 
 
-Le choix de la langue se répercute sur l’affichage des paramètres saisis dans la requête et repris dans la réponse, mais n’a pas de conséquences sur les propositions renvoyées par l’API. Le nom du paramètre Q168 sera ainsi affiché en tant qu’« être humain » en français, et en tant que « human » en anglais.
+Le choix de la langue se répercute sur l’affichage des paramètres saisis dans la requête et repris dans la réponse, mais n’a pas de conséquences sur les propositions renvoyées par l’API. Le nom du paramètre [Q168](https://data.biblissima.fr/entity/Q168) sera ainsi affiché en tant qu’« être humain » en français, et en tant que « human » en anglais.
 
 #### Paramètres disponibles
 
@@ -25,9 +25,9 @@ Le choix de la langue se répercute sur l’affichage des paramètres saisis dan
 - `limit` : a pour valeur le nombre maximum de résultats à renvoyer. Optionnel.
 - `properties` : permet de définir un ou des couples « identifiant de propriété (champ `pid`) / valeur de propriété (champ `v`) » afin d’affiner les résultats en vérifiant non seulement la correspondance avec le paramètre `query`, mais également la valeur des propriétés. Optionnel.
 
-Les requêtes multiples sont contenues dans un query batch, prenant la forme d’un ensemble de `queries` indexées par un identifiant. La syntaxe a utiliser est alors la suivante : 
+Les requêtes multiples sont contenues dans un "query batch", prenant la forme d’un ensemble de `queries` indexées par un identifiant. La syntaxe à utiliser est alors la suivante : 
 
-```
+``` bash
 https://data.biblissima.fr/reconcile/fr/api?queries={"id1": {"query": "entité1"},"id2": {"query": "entité2"}}.
 ```
 
@@ -43,17 +43,17 @@ Cette requête minimale, sans paramètres optionnels, renvoie une liste de propo
 	[https://data.biblissima.fr/reconcile/fr/api?queries={"q0": {"query": "Isidorus Hispalensis","type": "Q168","limit": 5,"properties": [{"pid": "P57","v": "560"}]},"q1": {"query": "Gregorius Magnus","type": "Q168","limit": 5,"properties": [{"pid": "P57","v": "540"}]}}](https://data.biblissima.fr/reconcile/fr/api?queries={"q0": {"query": "Isidorus Hispalensis","type": "Q168","limit": 5,"properties": [{"pid": "P57","v": "560"}]},"q1": {"query": "Gregorius Magnus","type": "Q168","limit": 5,"properties": [{"pid": "P57","v": "540"}]}})
 
 
-Cette requête multiple, avec paramètres optionnels, renvoie une liste de cinq propositions maximum pour, respectivement, le terme « Isidorus Hispalensis » et le terme « Gregorius Magnus », en restreignant les résultats aux entités de type « être humain » (Q168), et en prenant en compte la valeur de la propriété « date de naissance » (P57) pour le calcul du score.
+Cette requête multiple, avec paramètres optionnels, renvoie une liste de cinq propositions maximum pour, respectivement, le terme « Isidorus Hispalensis » et le terme « Gregorius Magnus », en restreignant les résultats aux entités de type « être humain » ([Q168](https://data.biblissima.fr/entity/Q168)), et en prenant en compte la valeur de la propriété « date de naissance » ([P57](https://data.biblissima.fr/entity/P57)) pour le calcul du score.
 
 !!! example "Exemple 3"
 	[https://data.biblissima.fr/reconcile/fr/api?queries={"q0":{"query":"Couvent des Grands-Augustins ","properties":[{"pid":"P112","v":"Q3001716"}]}}](https://data.biblissima.fr/reconcile/fr/api?queries={"q0":{"query":"Couvent des Grands-Augustins ","properties":[{"pid":"P112","v":"Q3001716"}]}})
 
-Cette requête unique renvoie une liste de propositions pour le terme « Couvent des Grands-Augustins », en prenant en compte la valeur de la propriété « identifiant Wikidata » (P112) pour le calcul du score.
+Cette requête unique renvoie une liste de propositions pour le terme « Couvent des Grands-Augustins », en prenant en compte la valeur de la propriété « identifiant Wikidata » ([P112](https://data.biblissima.fr/entity/P112)) pour le calcul du score.
 
 !!! example "Exemple 4"
 	[https://data.biblissima.fr/reconcile/fr/api?queries={"q0":{"query":"MILANO, Biblioteca Ambrosiana, H 106 sup.","properties":[{"pid":"P140","v":"manuscrit/35463"}]}}](https://data.biblissima.fr/reconcile/fr/api?queries={"q0":{"query":"MILANO, Biblioteca Ambrosiana, H 106 sup.","properties":[{"pid":"P140","v":"manuscrit/35463"}]}}) 
 
-Cette requête renvoie une liste de propositions pour le terme « MILANO, Biblioteca Ambrosiana, H 106 sup. », en prenant en compte la valeur de la propriété « identifiant Jonas » (P140) pour le calcul du score.
+Cette requête renvoie une liste de propositions pour le terme « MILANO, Biblioteca Ambrosiana, H 106 sup. », en prenant en compte la valeur de la propriété « identifiant Jonas » ([P140](https://data.biblissima.fr/entity/P140)) pour le calcul du score.
 
 ***
 
@@ -84,7 +84,7 @@ Cette requête renverra la réponse suivante :
 
 ### Services Suggest
 
-Ces services permettent de bénéficier de **fonctionnalités d’autocomplétion**. Ils facilitent par exemple la sélection manuelle d’une entité, d’une propriété ou d’un type lorsqu'un utilisateur cherche à saisir l'un d'eux au sein d'un champ dans un client (OpenRefine par exemple). 
+Ces services permettent de bénéficier de **fonctionnalités d’autocomplétion**. Ils facilitent par exemple la sélection manuelle d’une entité, d’une propriété ou d’un type lorsqu'un utilisateur cherche à saisir l'un d'eux au sein d'un champ dans un client comme OpenRefine ou autre. 
 
 #### Endpoints
 
@@ -111,7 +111,7 @@ Ce service permet de récupérer la ou les **valeurs d’une ou plusieurs propri
 
 #### Paramètres
 
-- `ids` : a pour valeur l’identifiant de(s) entité(s) pour lesquelles on souhaite récupérer la valeur d’une ou de plusieurs propriétés. Obligatoire
+- `ids` : a pour valeur l’identifiant de(s) entité(s) pour lesquelles on souhaite récupérer la valeur d’une ou de plusieurs propriétés. Obligatoire.
 - `properties` : permet de définir la ou les propriétés dont on souhaite récupérer la valeur. Ce paramètre peut contenir les sous-paramètres suivants :
 	* `id` : identifiant de la propriété. Obligatoire.
 	* `limit` : a pour valeur le nombre maximum de résultats à renvoyer. Optionnel.
@@ -121,6 +121,10 @@ Ce service permet de récupérer la ou les **valeurs d’une ou plusieurs propri
 !!! example "Exemple 7"
 	[https://data.biblissima.fr/reconcile/fr/api?extend={"ids":["Q27392"],"properties":[{"id":"P109"}]}](https://data.biblissima.fr/reconcile/fr/api?extend={"ids":["Q27392"],"properties":[{"id":"P109"}]})
 
-Cette requête permet de récupérer une liste de valeurs pour la propriété « identifiant Bibliothèque nationale de France » (P109) pour l’entité « Paris (France) » (Q27392).
+Cette requête permet de récupérer une liste de valeurs pour la propriété « identifiant Bibliothèque nationale de France » ([P109](https://data.biblissima.fr/entity/P109)) pour l’entité « Paris (France) » ([Q27392](https://data.biblissima.fr/entity/Q27392)).
 
-Pour plus de détails sur les différents endpoints et le fonctionnement de l’API de réconciliation, se référer à [la documentation du W3C](https://www.w3.org/community/reports/reconciliation/CG-FINAL-specs-0.1-20230321).
+***
+
+!!! info "Pour approfondir"
+
+	Pour plus de détails sur les différents endpoints et le fonctionnement de l’API de réconciliation, se référer à [la documentation officielle du W3C](https://www.w3.org/community/reports/reconciliation/CG-FINAL-specs-0.1-20230321).

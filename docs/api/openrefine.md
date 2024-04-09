@@ -1,4 +1,4 @@
-OpenRefine est un logiciel libre de **nettoyage** et de **transformation de données**. Il peut être branché sur les référentiels d’autorité Biblissima pour exploiter les possibilités offertes par l’API Réconciliation via une **interface conviviale**.
+[OpenRefine](https://openrefine.org) est un logiciel libre de **nettoyage** et de **transformation de données**. Il peut être branché sur les référentiels d’autorité Biblissima pour exploiter les possibilités offertes par l’API Réconciliation via une **interface conviviale**.
 
 !!! info "Ressources utiles"
 
@@ -44,7 +44,7 @@ https://data.biblissima.fr/reconcile/fr/api
 
 ## Étape 4 - Paramétrer la réconciliation
 
-Choisir le **type d’entité** correspondant aux données à réconcilier. OpenRefine propose par défaut des types en fonction des données qui ont été chargées. 
+Choisir le **type d’entité** correspondant aux données à réconcilier. OpenRefine propose par défaut des types en fonction des données qui ont été chargées.
 
 Dans cet exemple, les types « être humain », « descripteur » et « œuvre » sont proposés par défaut, mais il est également possible de choisir un autre type d’entité en cochant « Réconcilier avec le type » et en indiquant le type voulu. Une autocomplétion est proposée.
 
@@ -83,9 +83,9 @@ Il est ainsi possible d'apporter successivement quelques **modifications aux lib
 
 Par ailleurs, si dans les données qu'on souhaite aligner on dispose d'**informations supplémentaires** comme la date de naissance, de mort, ou des alignements vers d'autres référentiels, on peut les prendre en compte dans le processus de réconciliation en veillant à formater ces informations selon les choix opérés par le référentiel interrogé. 
 
-Dans notre exemple, on voit que certaines dates de naissance sont suivies d'un point d'interrogation ou que les dates avant l'an mil sont précédées d'un 0. En regardant des exemples d'entités associées dans le référentiel Biblissima à la propriété P57 (date de naissance), on constate que les points d'interrogation sont transformés en un qualificatif d'incertitude et que les dates avant l'an mil sont exprimées sans utiliser de 0. 
+Dans notre exemple, on voit que certaines dates de naissance sont suivies d'un point d'interrogation ou que les dates avant l'an mil sont précédées d'un 0. En regardant des exemples [d'entités associées à la propriété P57](https://data.biblissima.fr/w/Sp%C3%A9cial:Pages_li%C3%A9es/Property:P57) (date de naissance) dans le référentiel Biblissima, on constate que les points d'interrogation sont transformés en un qualificatif d'incertitude et que les dates avant l'an mil sont exprimées sans utiliser de 0. 
 
-De la même façon, dans le cas des identifiants externes, il convient d'identifier la manière dont sont formatées les URLs dans le référentiel Biblissima. Dans notre exemple, les URLs du fichier d'autorité de la BnF correspondent à la propriété P109 du référentiel Biblissima, qui retient comme identifiant uniquement le nom ARK sans le préfixe `cb` (pour plus de détails concernant la syntaxe des identifiants ARK de la BnF, voir Bertrand Caron, « L'identifiant ARK (Archival Resource Key) », [https://www.bnf.fr/fr/lidentifiant-ark-archival-resource-key](https://www.bnf.fr/fr/lidentifiant-ark-archival-resource-key)).
+De la même façon, dans le cas des identifiants externes, il convient d'identifier la manière dont sont formatées les URLs dans le référentiel Biblissima. Dans notre exemple, les URLs du fichier d'autorité de la BnF correspondent à la propriété [P109](https://data.biblissima.fr/entity/P109) du référentiel Biblissima, qui retient comme identifiant uniquement le nom ARK sans le préfixe `cb` (pour plus de détails concernant la syntaxe des identifiants ARK de la BnF, voir Bertrand Caron, « L'identifiant ARK (Archival Resource Key) », [https://www.bnf.fr/fr/lidentifiant-ark-archival-resource-key](https://www.bnf.fr/fr/lidentifiant-ark-archival-resource-key)).
 
 Pour améliorer les correspondances proposées pour l’échantillon, nous pouvons donc faire quelques modifications dans les données sources. 
 
@@ -100,7 +100,7 @@ value.replace(/^0|\?/,"")
 </figure>
 
 
-De même, on pourra supprimer la partie d'url « https://catalogue.bnf.fr/ark:/12148/cb » de la colonne `id_bnf`, afin de conserver uniquement l’identifiant BnF en tant que tel. Pour ce faire, l’expression GREL suivante peut être utilisée : 
+De même, on pourra supprimer la partie d'URL `https://catalogue.bnf.fr/ark:/12148/cb` de la colonne `id_bnf`, afin de conserver uniquement l’identifiant BnF en tant que tel. Pour ce faire, l’expression GREL suivante peut être utilisée : 
 
 ```
 value.replace("https://catalogue.bnf.fr/ark:/12148/cb","")
@@ -111,7 +111,7 @@ value.replace("https://catalogue.bnf.fr/ark:/12148/cb","")
 </figure>
 
 
-Lors du lancement de la réconciliation, on peut cocher dans la partie droite de la fenêtre les colonnes nettoyées, en indiquant les **propriétés équivalentes dans le référentiel Biblissima**, à savoir P57 et P109. 
+Lors du lancement de la réconciliation, on peut cocher dans la partie droite de la fenêtre les colonnes nettoyées, en indiquant les **propriétés équivalentes dans le référentiel Biblissima**, à savoir [P57](https://data.biblissima.fr/entity/P57) et [P109](https://data.biblissima.fr/entity/P109). 
 
 <figure markdown>
   ![OR étape 6-3](../assets/008_reconciliation_avec_proprietes.png)
@@ -143,7 +143,7 @@ Une fois la réconciliation effectuée, il peut être bienvenu de récupérer de
 Il est par exemple possible de créer une nouvelle colonne contenant les identifiants des référentiels Biblissima pour chacune des entités. 
 Pour ce faire, cliquer sur la flèche de la colonne contenant les données réconciliées, puis sélectionner « Éditer la colonne » et « Ajouter des colonnes en fonction des données réconciliées... ». Une fenêtre s’ouvre. La propriété « Qid » est suggérée et peut être choisie.
 
-D’autres propriétés peuvent également être sélectionnées, par exemple l’« identifiant CERL » (P117). Pour ajouter d'autres valeurs, il suffit de renseigner successivement l'autres propriétés dans la case « Ajouter une propriété ».
+D’autres propriétés peuvent également être sélectionnées, par exemple l’« identifiant CERL » ([P117](https://data.biblissima.fr/entity/P117)). Pour ajouter d'autres valeurs, il suffit de renseigner successivement d'autres propriétés dans la case « Ajouter une propriété ».
 
 <figure markdown>
   ![OR étape 7-1](../assets/012_enrichir.png)
