@@ -1,7 +1,5 @@
 Biblissima+ met à disposition un **service de réconciliation de données**. Il vise à faciliter l’alignement avec les [référentiels d’autorité Biblissima](https://data.biblissima.fr) pour tous les types d’entités publiés dans la plateforme data.biblissima.fr (cotes, personnes, organisations, lieux, descripteurs iconographiques, œuvres...). 
 
-Il est conforme à la version 0.1 de l’API de réconciliation (voir la [documentation de la version 0.1](https://www.w3.org/community/reports/reconciliation/CG-FINAL-specs-0.1-20230321/)), actuellement [en cours de standardisation au W3C](https://reconciliation-api.github.io/specs/draft/), et peut être branché sur le logiciel [OpenRefine](https://openrefine.org/) (voir la section [Réconcilier ses données avec OpenRefine](/api/openrefine)).
-
 La réconciliation est le processus qui consiste à **faire correspondre un jeu de données avec celui d'une source externe**. Cela peut servir à harmoniser les différentes graphies d'un même nom (nom propre, libellé de descripteur, cote de manuscrit, etc.), et à relier des données sources à un jeu de données cible susceptible de fournir des informations supplémentaires sur une entité donnée (coordonnées géographiques, dates de naissance et de mort, références bibliographiques, liens et identifiants externes...). 
 
 Ce processus est **semi-automatisé**. L’algorithme compare les données et renvoie des propositions, mais l’utilisateur est maître du choix final : choix d’une proposition plutôt qu’une autre, voire rejet de toutes les propositions.

@@ -2,8 +2,7 @@ Cette section présente les différents **endpoints** de l'API de réconciliatio
 
 Elle s'adresse à ceux qui souhaiteraient interroger l'API de réconciliation indépendamment de l'interface graphique d'un client compatible (OpenRefine par exemple), ou qui ont pour projet de développer un outil visant à tirer parti de ses fonctionnalités.
 
-!!! info ""
-	Version de l'API : 0.1
+Le service de réconciliation de données est conforme à la **version 0.1** de l’API de réconciliation (voir la [documentation de la version 0.1](https://www.w3.org/community/reports/reconciliation/CG-FINAL-specs-0.1-20230321/)), actuellement [en cours de standardisation au W3C](https://reconciliation-api.github.io/specs/draft/). Il peut être branché sur le logiciel [OpenRefine](https://openrefine.org/) (voir la section [Réconcilier ses données avec OpenRefine](/api/openrefine)).
 
 ## Endpoints
 
