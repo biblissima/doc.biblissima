@@ -13,6 +13,7 @@ Ouvrir OpenRefine et importer des données. Il peut être utile de les avoir net
 
 <figure markdown>
   ![OR étape 1](../assets/001_donnees_importees.png)
+  <figcaption><a href="/assets/001_donnees_importees.png">Agrandir l'image</a></figcaption>
 </figure>
 
 
@@ -24,6 +25,7 @@ Une flèche au-dessus de chaque colonne permet d’afficher un menu et d’inter
 
 <figure markdown>
   ![OR étape 2](../assets/002_nouvelle_colonne.png)
+  <figcaption><a href="/assets/002_nouvelle_colonne.png">Agrandir l'image</a></figcaption>
 </figure>
 
 
@@ -39,6 +41,7 @@ https://data.biblissima.fr/reconcile/fr/api
 
 <figure markdown>
   ![OR étape 3](../assets/003_ajout_service_bbma.png)
+  <figcaption><a href="/assets/003_ajout_service_bbma.png">Agrandir l'image</a></figcaption>
 </figure>
 
 
@@ -56,6 +59,7 @@ Une fois les paramétrages effectués, appuyer sur « Démarrer la réconciliati
 
 <figure markdown>
   ![OR étape 4](../assets/004_parametres_reconciliation.png)
+  <figcaption><a href="/assets/004_parametres_reconciliation.png">Agrandir l'image</a></figcaption>
 </figure>
 
 
@@ -71,6 +75,7 @@ Il est possible qu’aucune proposition ne soit formulée pour une entité, en f
 
 <figure markdown>
   ![OR étape 5](../assets/005_resultats_reconciliation_round1.png)
+  <figcaption><a href="/assets/005_resultats_reconciliation_round1.png">Agrandir l'image</a></figcaption>
 </figure>
 
 Dans notre exemple, des résultats sont obtenus, mais ils sont moyennement satisfaisants. Pour plusieurs entités, des propositions multiples ont été renvoyées. Les comparer et sélectionner manuellement la correspondance qu’il convient de conserver peut être chronophage.
@@ -97,6 +102,7 @@ value.replace(/^0|\?/,"")
 
 <figure markdown>
   ![OR étape 6-1](../assets/006_nettoyage_date_naissance.png)
+  <figcaption><a href="/assets/006_nettoyage_date_naissance.png">Agrandir l'image</a></figcaption>
 </figure>
 
 
@@ -108,6 +114,7 @@ value.replace("https://catalogue.bnf.fr/ark:/12148/cb","")
 
 <figure markdown>
   ![OR étape 6-2](../assets/007_nettoyage_id_bnf.png)
+  <figcaption><a href="/assets/007_nettoyage_id_bnf.png">Agrandir l'image</a></figcaption>
 </figure>
 
 
@@ -115,24 +122,28 @@ Lors du lancement de la réconciliation, on peut cocher dans la partie droite de
 
 <figure markdown>
   ![OR étape 6-3](../assets/008_reconciliation_avec_proprietes.png)
+  <figcaption><a href="/assets/008_reconciliation_avec_proprietes.png">Agrandir l'image</a></figcaption>
 </figure>
 
 Une fois le processus terminé, on constate que les résultats sont grandement améliorés. 
 
 <figure markdown>
   ![OR étape 6-4](../assets/009_reconciliation_round2.png)
+  <figcaption><a href="/assets/009_reconciliation_round2.png">Agrandir l'image</a></figcaption>
 </figure>
 
 Néanmoins, pour un libellé (« Guillaume Ier Briçonnet ») il n'y a aucun candidat proposé. On peut modifier le libellé en supprimant le chiffre « Ier » et essayer à nouveau la réconciliation.
 
 <figure markdown>
   ![OR étape 6-5](../assets/010_guillaume_briconnet.png)
+  <figcaption><a href="/assets/010_guillaume_briconnet.png">Agrandir l'image</a></figcaption>
 </figure>
 
 Une correspondance est alors trouvée.
 
 <figure markdown>
   ![OR étape 6-6](../assets/011_reconciliation_round3.png)
+  <figcaption><a href="/assets/011_reconciliation_round3.png">Agrandir l'image</a></figcaption>
 </figure>
 
 
@@ -147,12 +158,14 @@ D’autres propriétés peuvent également être sélectionnées, par exemple l�
 
 <figure markdown>
   ![OR étape 7-1](../assets/012_enrichir.png)
+  <figcaption><a href="/assets/012_enrichir.png">Agrandir l'image</a></figcaption>
 </figure>
 
 De nouvelles colonnes sont alors créées.
 
 <figure markdown>
   ![OR étape 7-2](../assets/013_nouvelles_colonnes_enrichies.png)
+  <figcaption><a href="/assets/013_nouvelles_colonnes_enrichies.png">Agrandir l'image</a></figcaption>
 </figure>
 
 ## Étape 8 - Exporter les données
@@ -161,5 +174,6 @@ Les données réconciliées, et éventuellement enrichies, peuvent finalement ê
 
 <figure markdown>
   ![OR étape 8](../assets/014_exporter.png)
+  <figcaption><a href="/assets/014_exporter.png">Agrandir l'image</a></figcaption>
 </figure>
 
