@@ -91,7 +91,7 @@ nav:
   - Référentiels :
     - referentiels/index.md
   - API: 
-      - Ouverture des données : api/index.md
+      - API : api/index.md
       - Référentiels Biblissima (Wikibase) : 
         - API Mediawiki/Wikibase : api/api-mediawiki.md
         - Interface de données liées : api/interface-donnees-liees.md
