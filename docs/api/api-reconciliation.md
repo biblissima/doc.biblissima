@@ -12,5 +12,4 @@ La **qualité des données** du portail Biblissima et de leur mise en interopér
 
 Ces référentiels sont organisés par types d’entités (cotes de manuscrits, personnes et organisations, lieux, descripteurs iconographiques, œuvres). 
 
-Ils jouent un rôle central dans la **présentation unifiée au sein du portail** de toutes les informations concernant une même entité dans les différentes sources agrégées. Par exemple, une même page du portail consacrée à l’entité personne “François Rabelais” rassemble des informations biographiques provenant d’un dictionnaire d’auteurs datant du XVIe siècle, récapitule l’ensemble des graphies et pseudonymes utilisés pour y faire référence (“Rabelais, François, “Francesco Rabelais” ou “Alcofribas Nasier”) et liste les oeuvres dont il est l’auteur.
-
+Ils jouent un rôle central dans la **présentation unifiée au sein du portail** de toutes les informations concernant une même entité dans les différentes sources agrégées. Par exemple, une même page du portail consacrée à l’entité personne “François Rabelais” rassemble des informations biographiques provenant d’un dictionnaire d’auteurs datant du XVIe siècle, récapitule l’ensemble des graphies et pseudonymes utilisés pour y faire référence (“Rabelais, François, “Francesco Rabelais” ou “Alcofribas Nasier”) et liste les documents auxquels il est associé en tant qu'auteur.

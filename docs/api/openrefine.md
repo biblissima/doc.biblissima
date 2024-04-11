@@ -84,7 +84,7 @@ Dans notre exemple, des résultats sont obtenus, mais ils sont moyennement satis
 
 Plusieurs stratégies peuvent être adoptées pour améliorer les résultats de la réconciliation. 
 
-Il est ainsi possible d'apporter successivement quelques **modifications aux libellés des entités** en fonction de leur nature, puis de relancer le processus. Dans le cas des noms de personnes par exemple, on peut supprimer l'éventuel contenu des parenthèses (informations sur la date de naissance ou de mort, par exemple), les chiffres romains ou arabes utilisés pour désigner le rang, remplacer les caractères accentués par des non-accentués, les ligatures œ ou æ par les voyelles indépendantes. Pour les formes latines, il peut être utile de remplacer les « i » par des « j ». 
+Il est ainsi possible d'apporter successivement quelques **modifications aux libellés des entités** en fonction de leur nature, puis de relancer le processus. Dans le cas des noms de personnes par exemple, on peut supprimer l'éventuel contenu des parenthèses (informations sur la date de naissance ou de mort, par exemple), les chiffres romains ou arabes utilisés pour désigner le rang, remplacer les caractères accentués par des non-accentués, les ligatures œ ou æ par les voyelles indépendantes. Pour les formes latines, il peut être utile de remplacer les « j » par des « i ». 
 
 Par ailleurs, si dans les données qu'on souhaite aligner on dispose d'**informations supplémentaires** comme la date de naissance, de mort, ou des alignements vers d'autres référentiels, on peut les prendre en compte dans le processus de réconciliation en veillant à formater ces informations selon les choix opérés par le référentiel interrogé. 
 
