@@ -2,9 +2,13 @@
 
 !!! info "Ressources utiles"
 
-	- Série de vidéos tutoriels pour appréhender le logiciel OpenRefine (Canal U) : [https://www.canal-u.tv/chaines/rbdd/tes-premiers-pas-avec-openrefine-0](https://www.canal-u.tv/chaines/rbdd/tes-premiers-pas-avec-openrefine-0) 
+	 - Série de vidéos tutoriels pour appréhender le logiciel OpenRefine (Canal U) : [https://www.canal-u.tv/chaines/rbdd/tes-premiers-pas-avec-openrefine-0](https://www.canal-u.tv/chaines/rbdd/tes-premiers-pas-avec-openrefine-0) 
+    
+    - Nettoyer ses données avec OpenRefine (Programming Historian) : [https://programminghistorian.org/fr/lecons/nettoyer-ses-donnees-avec-openrefine](https://programminghistorian.org/fr/lecons/nettoyer-ses-donnees-avec-openrefine)
 
-	- Documentation officielle sur la réconciliation avec OpenRefine : [https://docs.openrefine.org/manual/reconciling](https://docs.openrefine.org/manual/reconciling)
+	 - Documentation officielle sur la réconciliation avec OpenRefine : [https://docs.openrefine.org/manual/reconciling](https://docs.openrefine.org/manual/reconciling)
+
+
 
 
 ## Étape 1 - Importer des données
