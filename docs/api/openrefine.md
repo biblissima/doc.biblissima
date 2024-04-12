@@ -94,7 +94,7 @@ De la même façon, dans le cas des identifiants externes, il convient d'identif
 
 Pour améliorer les correspondances proposées pour l’échantillon, nous pouvons donc faire quelques modifications dans les données sources. 
 
-Avant de relancer le processus de réconciliation, on pourra par exemple, de préférence en dupliquant les colonnes, supprimer les 0 et les ? de la colonne date_naissance. Pour ce faire, sélectionner, dans le menu déroulant de la colonne correspondante, “Éditer les cellules” puis “Transformer…”. Saisir ensuite l’**expression GREL** (General Refine Expression Language ; voir la [documentation d'OpenRefine sur les expressions](https://openrefine.org/docs/manual/expressions)) suivante : 
+Avant de relancer le processus de réconciliation, on pourra par exemple, de préférence en dupliquant les colonnes, supprimer les 0 et les ? de la colonne date_naissance. Pour ce faire, sélectionner, dans le menu déroulant de la colonne correspondante, « Éditer les cellules » puis « Transformer… ». Saisir ensuite l’**expression GREL** (General Refine Expression Language ; voir la [documentation d'OpenRefine sur les expressions](https://openrefine.org/docs/manual/expressions)) suivante : 
 
 ```
 value.replace(/^0|\?/,"")
