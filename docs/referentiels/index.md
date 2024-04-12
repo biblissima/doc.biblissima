@@ -29,5 +29,5 @@ Ces données concernant les modifications sont aussi accessibles via l'API de la
 
 ## API
 
-Les données publiées sur data.biblissima sont exposées à travers plusieurs API fournies par Médiawiki/Wikibase. Les points d'accès disponibles et leur fonctionnement respectif sont détaillés sur la [page API](https://data.biblissima.fr/w/Project:API). 
+Les données publiées sur data.biblissima sont exposées à travers plusieurs API. Les points d'accès disponibles et leur fonctionnement respectif sont détaillés dans la [section API](/api). 
 
