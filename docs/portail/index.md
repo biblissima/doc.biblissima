@@ -61,4 +61,4 @@ Voir la page [Journal des mises à jour et développements](changelog.md).
 
 ## API
 
-Voir la [page API](../api.md#portail).
+Voir la [page API](../api/index.md).
