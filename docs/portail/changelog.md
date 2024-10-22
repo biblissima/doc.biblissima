@@ -8,6 +8,19 @@ Depuis avril 2017, le Portail est régulièrement amélioré et enrichi de nouve
 
 ## 2024
 
+**11/09/2024**
+
+- Intégration des notices de manuscrits médiévaux et imprimés anciens numérisés de la **Biblioteca Medicea Laurenziana de Florence** (bibliothèque numérique Teca digitale [tecabml.contentdm.oclc.org](https://tecabml.contentdm.oclc.org)).
+
+- Signalement des **numérisations IIIF enrichies**, à savoir disposant d'annotations, d'une table des matières ou d'une fonctionnalité de recherche plein-texte exploitables directement dans le visualiseur Mirador du portail. Ces indications sont affichées sur les pages "Manuscrit" et "Imprimé" concernées. Il est aussi possible de filtrer les listes de résultats sur ces critères via la facette "Numérisation / Disponible sur le portail via IIIF".
+
+- Première vague de **traitement de la bibliographie** associée aux notices de manuscrits et imprimés (exemple sur la page du manuscrit [Chantilly, Ms. 65](https://portail.biblissima.fr/fr/ark:/43093/mdata2ed44cf11cd47fa1dcf490d50af276190b628900#bibliography)). Outre le dédoublonnage, ce travail permet **d'harmoniser les références bibliographiques** et de les enrichir de **liens vers des publications en ligne et en libre accès**. Les résultats de ces traitements sont stockés dans une instance Wikibase à partir de laquelle les données bibliographiques sont importées automatiquement dans le portail.
+
+- Améliorations fonctionnelles :
+    - ajout d'une section "Numérisations" sur toutes les pages concernées ;
+    - tri des items listés dans la section "Documents associés" par type d'entité et par rôle ;
+    - nouvel affichage des mentions de sources des données sur les différentes pages.
+
 **07/03/2024**
 
 - Intégration des données du projet **[Fabliaux](https://projet.biblissima.fr/fr/appels-projets/projets-retenus/fabliaux)** (IHRIM, CIHAM) &ndash; corpus numérique de fabliaux français du Moyen Âge publié dans la Base de Français Médiéval (BFM) &ndash; lauréat en 2022 de l'appel à manifestation d'intérêt Biblissima+.
@@ -32,7 +45,7 @@ Depuis avril 2017, le Portail est régulièrement amélioré et enrichi de nouve
 - Améliorations fonctionnelles :
     - mise à jour de l'index utilisé par l'autocomplétion après un moissonnage de données depuis data.biblissima.fr ;
     - ajout d'un indicateur de chargement sur les cartes accessibles depuis la page d'accueil ;
-    - ajout du lien vers le référentiel sur les pages Oeuvres concernées.
+    - ajout du lien vers le référentiel sur les pages "Oeuvre" concernées.
 
 ## 2023
 
