@@ -8,6 +8,10 @@ Depuis avril 2017, le Portail est régulièrement amélioré et enrichi de nouve
 
 ## 2024
 
+**04/12/2024**
+
+- Intégration des notices et images d'inscriptions du **Corpus des inscriptions de la France médiévale, 1** (Favreau Robert, Michaud Jean. I. Poitou-Charentes. 1. Ville de Poitiers. Paris : CNRS Editions, 1974. 200 p.) disponible sur Persée ([www.persee.fr/doc/cifm_0000-0000_1974_cat_1_1](https://www.persee.fr/doc/cifm_0000-0000_1974_cat_1_1))
+
 **11/09/2024**
 
 - Intégration des notices de manuscrits médiévaux et imprimés anciens numérisés de la **Biblioteca Medicea Laurenziana de Florence** (bibliothèque numérique Teca digitale [tecabml.contentdm.oclc.org](https://tecabml.contentdm.oclc.org)).
