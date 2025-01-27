@@ -100,5 +100,6 @@ nav:
           - Réconcilier ses données : api/api-reconciliation.md
           - Informations techniques : api/reconciliation-infos-techniques.md
           - Réconcilier avec OpenRefine : api/openrefine.md
+          - Réconcilier avec Datasette : api/datasette.md
       - Portail Biblissima : 
         - API Présentation (IIIF) : api/api-presentation.md
