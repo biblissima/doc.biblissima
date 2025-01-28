@@ -20,8 +20,8 @@ Une fois ces deux commandes exécutées, il ne vous reste plus qu'à ajouter vot
 Le framework a besoin d’une base de données au format SQLite pour fonctionner. Pour créer une base dans ce format, il est tout à fait faisable de transformer un tableau CSV en fichier SQLite avec des outils comme [DB Browser](https://sqlitebrowser.org/). Une fois que vous avez créé votre nouvelle base de données (appelons-la **base\_reconcile.db**), vous pouvez importer votre fichier CSV qui va peupler cette base de données.
 
 <figure markdown>
-![Méthode pour impoter un fichier CSV dans DB Browser](../assets/datasette/importer_csv.png)
-<figcaption>Méthode pour impoter un fichier CSV dans DB Browser.</figcaption>
+![Méthode pour importer un fichier CSV dans DB Browser](../assets/datasette/importer_csv.png)
+<figcaption>Méthode pour importer un fichier CSV dans DB Browser.</figcaption>
 <figcaption><a href="/assets/datasette/importer_csv.png">Agrandir l'image</a></figcaption>
 </figure>
 
@@ -133,8 +133,8 @@ Pour la configuration de la réconciliation, on indique à quel champ correspond
 On peut désormais lancer le service datasette-reconcile et utiliser OpenRefine pour réconcilier nos données. Avec cette configuration le point d’accès se trouve à l’adresse <http://127.0.0.1:8001/auteurs/authors/-/reconcile>. C’est celle-ci qu’il faut renseigner dans OpenRefine pour ajouter le service via le bouton **Ajouter un service standard** (ou **Add standard service**) disponible dans la fenêtre de réconciliation.
 
 <figure markdown>
-![Ajout de notre service de reconciliation dans Open Refine.](../assets/datasette/ajouter_service.png)
-<figcaption>Ajout de notre service de reconciliation dans Open Refine.</figcaption>
+![Ajout de notre service de réconciliation dans Open Refine.](../assets/datasette/ajouter_service.png)
+<figcaption>Ajout de notre service de réconciliation dans Open Refine.</figcaption>
 <figcaption><a href="/assets/datasette/ajouter_service.png">Agrandir l'image</a></figcaption>
 </figure>
 
