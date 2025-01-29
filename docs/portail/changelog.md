@@ -6,11 +6,19 @@ Depuis avril 2017, le Portail est régulièrement amélioré et enrichi de nouve
 
 [Voir le périmètre actuel des données du Portail](https://portail.biblissima.fr/fr/data-sources).
 
+## 2025
+
+**27/01/2025**
+
+- Intégration des notices et images d'inscriptions du **Corpus des inscriptions de la France médiévale, 2** (Favreau Robert, Michaud Jean. _I. Poitou-Charentes. 2. Département de Vienne (excepté la ville de Poitiers)_. Paris : CNRS Editions, 1975. 230 p.) disponible sur Persée ([www.persee.fr/doc/cifm_0000-0000_1975_cat_2_1](https://www.persee.fr/doc/cifm_0000-0000_1975_cat_2_1))
+
+- Mise à jour des URL de numérisations et de Manifestes IIIF provenant d'ARCA, la bibliothèque numérique de l'IRHT-CNRS.
+
 ## 2024
 
 **04/12/2024**
 
-- Intégration des notices et images d'inscriptions du **Corpus des inscriptions de la France médiévale, 1** (Favreau Robert, Michaud Jean. I. Poitou-Charentes. 1. Ville de Poitiers. Paris : CNRS Editions, 1974. 200 p.) disponible sur Persée ([www.persee.fr/doc/cifm_0000-0000_1974_cat_1_1](https://www.persee.fr/doc/cifm_0000-0000_1974_cat_1_1))
+- Intégration des notices et images d'inscriptions du **Corpus des inscriptions de la France médiévale, 1** (Favreau Robert, Michaud Jean. _I. Poitou-Charentes. 1. Ville de Poitiers_. Paris : CNRS Editions, 1974. 200 p.) disponible sur Persée ([www.persee.fr/doc/cifm_0000-0000_1974_cat_1_1](https://www.persee.fr/doc/cifm_0000-0000_1974_cat_1_1))
 
 **11/09/2024**
 
