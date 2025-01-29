@@ -1,6 +1,6 @@
-
 !!! warning "Attention !"
-	Cette partie de la documentation ne traite pas du service de réconciliation de Biblissima+. Si c'est ce sujet qui vous intéresse, voir la page suivante : <a href="/api/api-reconciliation/">Réconcilier ses données</a>.
+	- Cette partie de la documentation ne traite pas du service de réconciliation de Biblissima+. Si c'est ce sujet qui vous intéresse, voir la page suivante : <a href="/api/api-reconciliation/">Réconcilier ses données</a>. 
+	- L'outil **datasette-reconcile** permet de créer un service de réconciliation en local sur n'importe quel jeu de données téléchargé. Ce tutoriel vous explique comment paramétrer ce service, et présente un cas d'utilisation à partir de noms d'auteurs à aligner avec les autorités BnF.
 
 ### 1.1 - Installation des outils
 [Datasette](https://datasette.io/) est un framework open-source Python qui permet de manipuler et publier ses données avec une interface web. Cet outil donne accès à de nombreux plugins qui ajoutent de nouvelles fonctionnalités. Nous présentons ici le plugin [datasette-](https://github.com/drkane/datasette-reconcile)[reconcile](https://github.com/drkane/datasette-reconcile) qui permet la création d’un service de réconciliation des données qui suit les recommandations du W3C.
@@ -51,12 +51,12 @@ Le **name\_field** est le seul champ obligatoire dans les métadonnées, il corr
 
 Il ne vous reste plus qu’à relancer l’application en indiquant le chemin vers votre fichier, si aucun chemin n’est indiqué, datasette récupère le fichier dans le répertoire courant.
 
-Vous devriez maintenant pouvoir accéder à votre service de réconciliation personnalisé à partir de la page  http://localhost:8001/base\_reconcile/nom\_de\_la\_table/-/reconcile.![](Aspose.Words.ab4ec036-eabe-4ee5-a877-a792abb18280.006.png)
+Vous devriez maintenant pouvoir accéder à votre service de réconciliation personnalisé à partir de la page  http://localhost:8001/base\_reconcile/nom\_de\_la\_table/-/reconcile.
 
 ### 1.4 - Activer la recherche plein-texte (FTS)
 L’utilisation de l’outil peut s’avérer assez limitée à cette étape de l'installation. La requête effectuée lors de la réconciliation reste sommaire, sous la forme :```%chaine\_recherchée%”```.
 
-Pour avoir des résultats moins restrictifs et une vitesse d'exécution plus rapide, il faut configurer la table des données avec l’extension [FTS 5](https://sqlite.org/fts5.html) (Full Text Search). Deux commandes SQLite sur vos données permettent d’y parvenir. Pour exécuter ces commandes dans DB Browser ouvrez l’onglet “Exécuter le SQL”. Dans cette fenêtre, saisissez à la suite les commandes suivantes (la commande INSERT peut demander un temps d'exécution assez long en fonction de la taille de vos données).
+Pour avoir des résultats moins restrictifs et une vitesse d'exécution plus rapide, il faut configurer la table des données avec l’extension [FTS 5](https://sqlite.org/fts5.html) (Full Text Search). Deux commandes SQLite sur vos données permettent d’y parvenir. Pour exécuter ces commandes dans DB Browser ouvrez l’onglet “Exécuter le SQL”. Dans cette fenêtre, saisissez les commandes suivantes (la commande INSERT peut demander un temps d'exécution assez long en fonction de la taille de vos données).
 
 ```sql
 CREATE VIRTUAL TABLE nom_index USING FTS5 (
@@ -68,7 +68,7 @@ INSERT INTO nom_index(nom_index) VALUES("rebuild");
 
 La première commande permet de créer la table qui servira d’index à la recherche full text. La seconde va remplir cette table. Une fois le processus terminé, vous pouvez enregistrer et relancer datasette. Lors de la réconciliation, la vitesse de réponse est normalement plus rapide avec peut-être plus de candidats dans les options de matching. A noter que datasette-reconcile fourni également l'ensemble des services <a href="/api/reconciliation-infos-techniques/#services-suggest">suggest</a>.
 ### 2 - Exemple d’utilisations possibles
-`	`Il est possible de récupérer n’importe quel jeu de données, le transformer en CSV, l’importer dans datasette et l’interroger à l’aide d’[OpenRefine](https://doc.biblissima.fr/api/openrefine/).
+Il est possible de récupérer n’importe quel jeu de données, le transformer en CSV, l’importer dans datasette et l’interroger à l’aide d’OpenRefine (voir notre tutoriel [Réconcilier avec OpenRefine](/api/openrefine/)).
 
 Par exemple pour réconcilier des noms d’auteurs avec les référentiels d’autorités de la BnF, on peut récupérer un de leurs jeux de données : sur la page des [dumps](https://api.bnf.fr/fr/node/270) nous avons sélectionné le dossier databnf\_org\_authors\_xml.tar.gz [lien de téléchargement](https://transfert.bnf.fr/link/2a2b3690-f642-4644-8615-9b50b59c84d9) (on peut aussi bien récupérer des données via le [SPARQL](https://api.bnf.fr/fr/sparql-endpoint-de-databnffr)).
 
@@ -146,3 +146,5 @@ Il ne reste plus qu’à réconcilier ses entités auteurs avec le référentiel
 </figure>
 
 Si vous souhaitez en savoir plus, n'hésitez pas à consulter la [page GitHub](https://github.com/drkane/datasette-reconcile) de datasette-reconcile. Vous pouvez également vous plonger dans le code Python de l’application.
+
+> LANGELÉ Florian (ingénieur d'études), *"Réconcilier avec Datasette"*, Documentation Biblissima+, 2025
