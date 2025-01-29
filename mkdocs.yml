@@ -26,6 +26,7 @@ theme:
     - navigation.tabs
     - navigation.indexes
     - toc.follow
+    - content.code.copy
 
 extra_css:
   - stylesheets/extra.css
@@ -96,9 +97,9 @@ nav:
         - API Mediawiki/Wikibase : api/api-mediawiki.md
         - Interface de données liées : api/interface-donnees-liees.md
         - Point d'accès SPARQL : api/sparql.md
-        - API de réconciliation de données : 
+        - Réconciliation de données : 
           - Réconcilier ses données : api/api-reconciliation.md
-          - Informations techniques : api/reconciliation-infos-techniques.md
+          - Informations techniques sur l'API : api/reconciliation-infos-techniques.md
           - Réconcilier avec OpenRefine : api/openrefine.md
           - Réconcilier avec Datasette : api/datasette.md
       - Portail Biblissima : 
