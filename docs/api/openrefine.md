@@ -181,3 +181,5 @@ Les données réconciliées, et éventuellement enrichies, peuvent finalement ê
   <figcaption><a href="/assets/014_exporter.png">Agrandir l'image</a></figcaption>
 </figure>
 
+!!! quote "Citer cette page"
+    SAJDAK Cécile, *"Réconcilier avec OpenRefine"*, Documentation Biblissima+, 2024
