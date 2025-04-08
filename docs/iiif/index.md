@@ -8,6 +8,7 @@ L'ÉquipEx+ **Biblissima+** (2021-2029) - _Observatoire des cultures écrites an
 !!! tip "Pour en savoir plus"
     
     - sur [l'implication de Biblissima dans l'initiative internationale IIIF](https://iiif.biblissima.fr/#implication-biblissima)
+    - sur [les implémentations de IIIF dans le portail Biblissima](../api/api-presentation.md)
     - sur [l'implémentation de IIIF dans plusieurs bibliothèques numériques en France](entrepots-iiif.md) situées dans le périmètre initial de Biblissima
     - sur [les standards IIIF de façon générale](introduction-iiif.md)
 
