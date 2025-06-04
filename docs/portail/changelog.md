@@ -8,6 +8,14 @@ Depuis avril 2017, le Portail est régulièrement amélioré et enrichi de nouve
 
 ## 2025
 
+**03/06/2025**
+
+- Intégration des manuscrits numérisés de la Bayerische Staatsbibliothek de Munich ([www.digitale-sammlungen.de](https://www.digitale-sammlungen.de)).
+
+- Ajout du nouveau type de données "Reliure".
+
+- Import et affichage de la bibliographie sur les pages "Lieu" et "Partie de manuscrit" (références bibliographiques importées depuis Wikibase).
+
 **26/03/2025**
 
 - Intégration des manuscrits numérisés d'ARCA, la bibliothèque numérique de l'IRHT-CNRS ([arca.irht.cnrs.fr](https://arca.irht.cnrs.fr)).
