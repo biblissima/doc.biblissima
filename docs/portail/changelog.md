@@ -10,15 +10,13 @@ Depuis avril 2017, le Portail est régulièrement amélioré et enrichi de nouve
 
 **03/06/2025**
 
-- Intégration des manuscrits numérisés de la Bayerische Staatsbibliothek de Munich ([www.digitale-sammlungen.de](https://www.digitale-sammlungen.de)).
+- Intégration des manuscrits numérisés de la **Bayerische Staatsbibliothek de Munich** ([www.digitale-sammlungen.de](https://www.digitale-sammlungen.de)) (exemple : [Clm 28222](https://portail.biblissima.fr/fr/ark:/43093/mdatae8c8f935cef81706d36f58f78569742f2b4de12a)).
 
-- Ajout du nouveau type de données "Reliure".
-
-- Import et affichage de la bibliographie sur les pages "Lieu" et "Partie de manuscrit" (références bibliographiques importées depuis Wikibase).
+- Ajout d'un nouveau type de données "Reliure" (exemple : [Clm 14000 (reliure)](https://portail.biblissima.fr/fr/ark:/43093/rdatadcc5206e4335da015a7a15973855dea6d6307eba)).
 
 **26/03/2025**
 
-- Intégration des manuscrits numérisés d'ARCA, la bibliothèque numérique de l'IRHT-CNRS ([arca.irht.cnrs.fr](https://arca.irht.cnrs.fr)).
+- Intégration des manuscrits numérisés de **ARCA**, la bibliothèque numérique de l'IRHT-CNRS ([arca.irht.cnrs.fr](https://arca.irht.cnrs.fr)) (exemple : [Reims Ms. 874](https://portail.biblissima.fr/fr/ark:/43093/mdataf5e843a301925975c33e11f27cc9bad7741d522c)).
 
 - Import et affichage de la bibliographie sur les pages des personnes et des collectivités (références bibliographiques importées depuis Wikibase).
 
@@ -40,7 +38,7 @@ Depuis avril 2017, le Portail est régulièrement amélioré et enrichi de nouve
 
 **04/12/2024**
 
-- Intégration des notices et images d'inscriptions du **Corpus des inscriptions de la France médiévale, 1** (Favreau Robert, Michaud Jean. _I. Poitou-Charentes. 1. Ville de Poitiers_. Paris : CNRS Editions, 1974. 200 p.) disponible sur Persée ([www.persee.fr/doc/cifm_0000-0000_1974_cat_1_1](https://www.persee.fr/doc/cifm_0000-0000_1974_cat_1_1)).
+- Intégration des notices et images d'inscriptions du **Corpus des inscriptions de la France médiévale, 1** (Favreau Robert, Michaud Jean. _I. Poitou-Charentes. 1. Ville de Poitiers_. Paris : CNRS Editions, 1974. 200 p.) disponible sur Persée ([www.persee.fr/doc/cifm_0000-0000_1974_cat_1_1](https://www.persee.fr/doc/cifm_0000-0000_1974_cat_1_1)) (exemple : [CIFM I, 60](https://portail.biblissima.fr/fr/ark:/43093/inscdata21addb4bc856a7c8f55d7d078f3b9c92710e6006)).
 
 **11/09/2024**
 
