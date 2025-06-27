@@ -39,11 +39,12 @@ Le mode opératoire pour contribuer aux référentiels peut être résumé ainsi
 1. en amont le partenaire **aligne ses données** avec le ou les référentiels pertinents : cotes, personnes, organisations, lieux, oeuvres ou descripteurs iconographiques.
 
     - cette opération peut se faire soit au fil de l’eau (au cours du travail de saisie ou de balisage), soit a posteriori à partir d’un export (alignement par lots) ;
+    - pour faciliter les alignements, Biblissima+ propose un service de réconciliation documenté (se référer aux [pages de documentation](../api/api-reconciliation) mises à disposition, et notamment à la section [réconcilier avec OpenRefine](../api/openrefine)).
 
 2. une fois identifiées les entités absentes du référentiel, le partenaire peut :
 
-    - soit transmettre à l’équipe Portail un ou plusieurs fichiers (de préférence au format CSV) pour intégration des entités dans la plateforme data.biblissima.fr
-    - soit créer lui-même les entités concernées dans la plateforme, manuellement ou par versement par lots automatisé (via _OpenRefine_ ou un script ad hoc)
+    - soit transmettre à l’équipe Portail un ou plusieurs fichiers (de préférence au format CSV) pour intégration des entités dans la plateforme data.biblissima.fr ;
+    - soit créer lui-même les entités concernées dans la plateforme, manuellement ou par versement par lots automatisé (via _OpenRefine_ ou un script ad hoc).
 
 !!! warning "Important"
 
@@ -56,6 +57,24 @@ Les dispositifs suivants sont disponibles pour contribuer aux référentiels :
 - l’interface web de la plateforme [data.biblissima.fr](https://data.biblissima.fr), via le compte utilisateur qui aura été créé pour le partenaire ;
 - le logiciel client _[OpenRefine](https://openrefine.org/)_, qui dispose d'un module permettant de verser des items par lot dans la plateforme à l'aide d'une interface graphique ;
 - des programmes informatiques ad hoc pouvant s’appuyer sur les API de la plateforme pour aligner, rechercher, créer, éditer, supprimer des items (cf. [page API](https://data.biblissima.fr/w/Project:API)). Ces APIs peuvent par exemple être implémentées dans des modules d’applications web (formulaire de saisie de base de données) ou des plateformes d’édition de sources en XML développées au sein des équipes partenaires de Biblissima+.
+- des modèles de fichiers CSV (téléchargeables ci-dessous) pour structurer les données à verser dans data.biblissima, accompagnés d'explications sur les colonnes disponibles.
+
+!!! note "Modèles de fichiers CSV"
+    Les modèles de fichiers CSV ci-dessous sont mis à disposition :
+
+    - Cotes : <a href="../assets/csv_fichiers_type/biblissima_fichier_type_cotes.csv" download="biblissima_fichier_type_cotes.csv">Télécharger </a>
+    - Personnes : <a href="../assets/csv_fichiers_type/biblissima_fichier_type_personnes.csv" download="biblissima_fichier_type_personnes.csv">Télécharger </a>
+    - Organisations : <a href="../assets/csv_fichiers_type/biblissima_fichier_type_organisations.csv" download="biblissima_fichier_type_organisations.csv">Télécharger </a>
+    - Lieux : <a href="../assets/csv_fichiers_type/biblissima_fichier_type_lieux.csv" download="biblissima_fichier_type_lieux.csv">Télécharger </a>
+    - Œuvres : <a href="../assets/csv_fichiers_type/biblissima_fichier_type_oeuvres.csv" download="biblissima_fichier_type_oeuvres.csv">Télécharger </a>
+    - Bibliographie : <a href="../assets/csv_fichiers_type/biblissima_fichier_type_bibliographie.csv" download="biblissima_fichier_type_bibliographie.csv">Télécharger </a>
+
+    En complément, un document explicite les labels utilisés dans les fichiers modèles : <a href="../assets/csv_fichiers_type/explications_labels.csv" download="explications_labels.csv">Télécharger le document explicatif</a>. Pour chaque label est indiquée la propriété correspondante dans les référentiels Biblissima (à ne pas confondre avec les propriétés de Wikidata). Afin de trouver des exemples relatifs à chaque propriété, il suffit de cliquer sur l’onglet “Pages liées” dans le menu latéral gauche du site data.biblissima.
+
+    **<a href="../assets/csv_fichiers_type/biblissima_fichiers_type.zip" download="biblissima_fichiers_type.zip">Télécharger l'ensemble des fichiers</a>**
+
+    
+
 
 ## Comment fournir les données ?
 
@@ -214,7 +233,8 @@ Actuellement l’équipe Biblissima+ prend en charge les formats et schémas de 
 - XML-TEI
 - MODS ou METS-MODS
 - Dublin Core (OAI-PMH)
-- Manifeste IIIF (JSON-LD) 
+- Manifeste IIIF (JSON-LD)
+- CSV, en particulier pour contribuer à data.biblissima (voir la section [Comment s’aligner avec les référentiels Biblissima ? Comment y contribuer ?](./\#comment-saligner-avec-les-referentiels-biblissima-comment-y-contribuer) et les modèles de fichiers CSV associés).
 
 
 !!! warning "Important"
