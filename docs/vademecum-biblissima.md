@@ -59,8 +59,9 @@ Les dispositifs suivants sont disponibles pour contribuer aux référentiels :
 - des programmes informatiques ad hoc pouvant s’appuyer sur les API de la plateforme pour aligner, rechercher, créer, éditer, supprimer des items (cf. [page API](https://data.biblissima.fr/w/Project:API)). Ces APIs peuvent par exemple être implémentées dans des modules d’applications web (formulaire de saisie de base de données) ou des plateformes d’édition de sources en XML développées au sein des équipes partenaires de Biblissima+.
 - des modèles de fichiers CSV (téléchargeables ci-dessous) pour structurer les données à verser dans data.biblissima, accompagnés d'explications sur les colonnes disponibles.
 
-!!! note "Modèles de fichiers CSV pour versement dans data.biblissima"
-    Les modèles de fichiers CSV ci-dessous sont mis à disposition :
+### Modèles de fichiers CSV pour data.biblissima
+
+!!! note "Modèles CSV pour verser des données dans les référentiels Biblissima data.biblissima"
 
     - Cotes : [Télécharger](assets/csv_fichiers_type/biblissima_fichier_type_cotes.csv){:download="biblissima_fichier_type_cotes.csv"} :octicons-download-16:
     - Personnes : [Télécharger](assets/csv_fichiers_type/biblissima_fichier_type_personnes.csv){:download="biblissima_fichier_type_personnes.csv"} :octicons-download-16:
@@ -71,7 +72,8 @@ Les dispositifs suivants sont disponibles pour contribuer aux référentiels :
 
     NB : Le caractère séparateur utilisé dans ces fichiers est le signe dollar `$`.
 
-    En complément, un document explicite les labels utilisés dans les fichiers modèles : [Télécharger le document explicatif](assets/csv_fichiers_type/explications_labels.csv){:download="explications_labels.csv"} :octicons-download-16:  
+    En complément, un document explicite les labels utilisés dans les fichiers modèles : [Télécharger le document explicatif](assets/csv_fichiers_type/explications_labels.csv){:download="explications_labels.csv"} :octicons-download-16: 
+
     Pour chaque label est indiquée la propriété correspondante dans les référentiels Biblissima (à ne pas confondre avec les propriétés de Wikidata). Afin de trouver des exemples relatifs à chaque propriété, il suffit de cliquer sur l’onglet “Pages liées” dans le menu latéral gauche du site data.biblissima.
 
     **[Télécharger l'ensemble des fichiers](assets/csv_fichiers_type/biblissima_fichiers_type.zip){:download="biblissima_fichiers_type.zip"}** (zip) :octicons-download-16:
