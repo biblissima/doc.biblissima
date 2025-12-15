@@ -46,6 +46,7 @@ Le mode opératoire pour contribuer aux référentiels peut être résumé ainsi
     - soit transmettre à l’équipe Portail un ou plusieurs fichiers (de préférence au format CSV) pour intégration des entités dans la plateforme data.biblissima.fr ;
     - soit créer lui-même les entités concernées dans la plateforme, manuellement ou par versement par lots automatisé (via _OpenRefine_ ou un script ad hoc).
 
+<a id="integrer-identifiants"></a>
 !!! warning "Important"
 
     Quel que soit le mode opératoire (manuel ou automatisé / au fil de l’eau ou a posteriori), **il est fortement recommandé d’intégrer les identifiants Biblissima des entités dans les données à la source**, que ce soit dans une base de données, une édition de source en XML-TEI ou une notice catalographique en XML-EAD. Ce reversement des identifiants du référentiel Biblissima permettra de faciliter les mises à jour ultérieures du jeu de données.
@@ -298,6 +299,28 @@ Une méthode complémentaire est de référencer les métadonnées source via la
 
     - le serveur doit être paramétré pour inclure [l’entête CORS](https://developer.mozilla.org/fr/docs/Web/HTTP/CORS) dans toutes les réponses aux requêtes de Manifestes JSON (API Présentation) et de fichiers info.json (API Image). Pour plus de détails, voir [https://iiif.io/api/annex/notes/apache/#enabling-cors](https://iiif.io/api/annex/notes/apache/#enabling-cors) et [https://enable-cors.org/server.html](https://enable-cors.org/server.html).
     
+
+### Préconisations pour la transmission et la mise à jour des données : document de synthèse
+
+Un document de synthèse (format PDF) est mis à disposition des équipes partenaires afin de leur permettre de définir au mieux les **modalités de transmission**, et surtout de **mise à jour**, de leurs jeux de données.
+
+Il s'adresse en priorité aux équipes dont les jeux de données, issus de bases de données scientifiques, n'ont pas encore été intégrés, et qui chercheraient à définir les modalités de partage de leurs données.
+
+Ce document comprend :
+
+-  **Pour contribuer au Portail Biblissima** : différents profils de transmission définis par un ensemble de critères relatifs à la nature et à la qualité des données, à des aspects organisationnels, aux modalités de mise à disposition des données et de signalement et de récupération des mises à jour.
+Le niveau 4 correspond au scénario recommandé et jugé idéal. 
+- **Pour contribuer aux référentiels Biblissima** : une échelle de profondeur de l'interopérabilité des données transmises. Plus un jeu de donnée comprend des données préalignées avec les référentiels Biblissima, plus il est considéré comme interopérable.
+
+Le niveau et/ou la profondeur d'interopérabilité d'un jeu de données conditionnent la facilité et la rapidité de son intégration par l’équipe Portail.
+
+En offrant une vision d'ensemble sur les modes de transmission et de mise à jour possibles des données, ce document vise également à aider les partenaires à se situer et à identifier les améliorations possibles dans les processus de transmission de données qu'ils ont mis ou vont mettre en place.
+
+!!! info ""
+
+    [Télécharger le document ](assets/transmission_donnees/preconisations_transmission_donnees.pdf){:download="preconisations_transmission_donnees.pdf"} :octicons-download-16:
+
+Pour échanger sur les spécificités de votre jeu de données et obtenir un appui pour définir les meilleurs processus possibles de transmission et de mise à jour de vos données, veuillez contacter l'équipe Portail à l'adresse _team(at)biblissima-condorcet.fr_.
 
 ### Recommandations pour les éditions électroniques de sources
 
