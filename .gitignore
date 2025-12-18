@@ -2,3 +2,5 @@ site/
 env/
 venv/
 redirects.txt
+.~lock.*
+
