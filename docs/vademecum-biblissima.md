@@ -51,6 +51,11 @@ Le mode opératoire pour contribuer aux référentiels peut être résumé ainsi
 
     Quel que soit le mode opératoire (manuel ou automatisé / au fil de l’eau ou a posteriori), **il est fortement recommandé d’intégrer les identifiants Biblissima des entités dans les données à la source**, que ce soit dans une base de données, une édition de source en XML-TEI ou une notice catalographique en XML-EAD. Ce reversement des identifiants du référentiel Biblissima permettra de faciliter les mises à jour ultérieures du jeu de données.
 
+    Quelques exemples de bases ayant intégré les identifiants Biblissima :
+
+    - Bibliothèques françoises (programme « Bibliothèques Virtuelles Humanistes », CESR) : exemple d'intégration [dans les notices web](https://bibfr.bvh.univ-tours.fr/bibfr/personne/bvhbibfr_02512) et [dans les données structurées](https://bibfr.bvh.univ-tours.fr/bibfr/personne/bvhbibfr_02512/xml) (XML-TEI) ;
+    - Bibale (IRHT-CNRS) : exemple d'intégration [dans les notices web](https://bibale.irht.cnrs.fr/5887).
+
 La plateforme data.biblissima.fr dispose des fonctionnalités nécessaires pour permettre des contributions extérieures, soit au fil de l’eau soit par versement en lots. 
 
 Les dispositifs suivants sont disponibles pour contribuer aux référentiels :
@@ -94,7 +99,7 @@ L’équipe Portail Biblissima+ prend en charge les modes d’exposition et de p
 | Point d’accès IIIF API Change Discovery | [IIIF Change Discovery API](https://iiif.io/api/discovery) | [Bodleian Libraries](https://iiif.bodleian.ox.ac.uk/iiif/activity/all-changes) |
 | Point d’accès Collections IIIF | IIIF Presentation API [2.1](https://iiif.io/api/presentation/2.1/#collection) ou [3.0](https://iiif.io/api/presentation/3.0/#51-collection) | [Durham University](https://iiif.durham.ac.uk/manifests/trifle/collection/index) |
 | Entrepôt RDF avec point d’accès SPARQL | [SPARQL 1.1 Query Language](https://www.w3.org/TR/sparql11-query/) | [data.bnf.fr](https://data.bnf.fr/sparql/) |
-| Dépôt d’un jeu de données dans un entrepôt fournissant un identifiant pérenne (ex. DOI) | | |
+| Dépôt d’un jeu de données dans un entrepôt fournissant un identifiant pérenne (ex. DOI) | | [Sigilla](https://zenodo.org/records/17348540) (Zenodo)|
 | Autre API Web (JSON ou XML) | [Activity Streams](https://www.w3.org/TR/activitystreams-core/) ; [DTS](https://distributed-text-services.github.io/specifications/) ; [Hydra](https://www.hydra-cg.com) ; [Elasticsearch](https://www.elastic.co/guide/en/elasticsearch/reference/current/rest-apis.html) | |
 | Export dynamique au format pivot Biblissima | [Format pivot Biblissima](portail/format-pivot-biblissima.md) | |
 
@@ -302,14 +307,15 @@ Une méthode complémentaire est de référencer les métadonnées source via la
 
 ### Préconisations pour la transmission et la mise à jour des données : document de synthèse
 
-Un document de synthèse (format PDF) est mis à disposition des équipes partenaires afin de leur permettre de définir au mieux les **modalités de transmission**, et surtout de **mise à jour**, de leurs jeux de données.
-
-Il s'adresse en priorité aux équipes dont les jeux de données, issus de bases de données scientifiques, n'ont pas encore été intégrés, et qui chercheraient à définir les modalités de partage de leurs données.
+Un document de synthèse est mis à disposition des équipes partenaires afin de leur permettre de définir au mieux les **modalités de transmission**, et surtout de **mise à jour**, de leurs jeux de données.
 
 Ce document comprend :
 
 -  **Pour contribuer au Portail Biblissima** : différents profils de transmission définis par un ensemble de critères relatifs à la nature et à la qualité des données, à des aspects organisationnels, aux modalités de mise à disposition des données et de signalement et de récupération des mises à jour.
-Le niveau 4 correspond au scénario recommandé et jugé idéal. 
+
+    Les niveaux restent bien sûr indicatifs : un projet peut se trouver à cheval sur plusieurs d'entre eux, ou valider un niveau donné tout en cochant des critères des niveaux supérieurs.
+    Le niveau 4 correspond au scénario recommandé et jugé idéal. 
+
 - **Pour contribuer aux référentiels Biblissima** : une échelle de profondeur de l'interopérabilité des données transmises. Plus un jeu de donnée comprend des données préalignées avec les référentiels Biblissima, plus il est considéré comme interopérable.
 
 Le niveau et/ou la profondeur d'interopérabilité d'un jeu de données conditionnent la facilité et la rapidité de son intégration par l’équipe Portail.
@@ -318,7 +324,7 @@ En offrant une vision d'ensemble sur les modes de transmission et de mise à jou
 
 !!! info ""
 
-    [Télécharger le document ](assets/transmission_donnees/preconisations_transmission_donnees.pdf){:download="preconisations_transmission_donnees.pdf"} :octicons-download-16:
+    Préconisations pour la transmission et la mise à jour des données (PDF) : [**Télécharger le document**](assets/transmission_donnees/preconisations_transmission_donnees.pdf){:download="preconisations_transmission_donnees.pdf"} :octicons-download-16:
 
 Pour échanger sur les spécificités de votre jeu de données et obtenir un appui pour définir les meilleurs processus possibles de transmission et de mise à jour de vos données, veuillez contacter l'équipe Portail à l'adresse _team(at)biblissima-condorcet.fr_.
 
