@@ -39,12 +39,15 @@ extra:
   issue_url: https://gitlab.huma-num.fr/biblissima/doc.biblissima/-/issues/new
   issue_label: Suggérer une modification
   social:
-    - icon: fontawesome/brands/twitter 
-      link: https://twitter.com/biblissima
-      name: Twitter @biblissima
+    - icon: fontawesome/brands/bluesky
+      link: https://bsky.app/profile/biblissima.bsky.social
+      name: Bluesky
+    - icon: fontawesome/brands/mastodon
+      link: https://universites.social/@biblissima
+      name: Mastodon
     - icon: fontawesome/brands/youtube
       link: https://www.youtube.com/channel/UCaHWzwUV0xBAQ-sEdE9EtKg
-      name: Chaîne Youtube
+      name: Youtube
     - icon: fontawesome/solid/envelope
       link: https://projet.biblissima.fr/fr/newsletter
       name: Lettre d'information Biblissima+
