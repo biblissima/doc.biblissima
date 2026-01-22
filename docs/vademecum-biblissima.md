@@ -16,7 +16,7 @@ Il s’adresse avant tout :
 Ce guide s’applique donc à toutes les données et jeux de données produits dans le cadre des activités de recherche menées par les différentes équipes et ayant vocation à intégrer l’infrastructure numérique de Biblissima+. Cette infrastructure prend essentiellement la forme d’un portail d’accès unifié ([Portail Biblissima](https://portail.biblissima.fr)) et d’une plateforme de référentiels d’autorité
 ([data.biblissima.fr](https://data.biblissima.fr)), s’inscrivant dans le périmètre P1 géré par l’équipe Portail et décrit dans le _Plan de gestion des données de l'observatoire des cultures écrites Biblissima+_ ([10.5281/zenodo.7081673](https://doi.org/10.5281/zenodo.7081673)). 
 
-Ainsi le présent guide explique comment les producteurs de données agissant dans le cadre des périmètres P2 (livrables des équipes partenaires de l’ÉquipEx) et P3 (résultats des projets partenariaux) contribuent à l’enrichissement de l’infrastructure de données de Biblissima+.
+Ainsi le présent guide explique comment les producteurs de données agissant dans le cadre des périmètres P2 (livrables des équipes partenaires de l’ÉquipEx) et P3 (résultats des projets partenariaux) contribuent à l’enrichissement de l’infrastructure de données de Biblissima+ (cf. _Plan de gestion des données de Biblissima+_ : [3 périmètres de données et de responsabilités à distinguer](https://dmp.biblissima.fr/1_introduction/3_projet-biblissimaplus/#3-perimetres-de-donnees-et-de-responsabilites-a-distinguer)).
 
 ## Présentation de l’infrastructure de données
 
@@ -27,7 +27,7 @@ L’infrastructure de données de Biblissima+ s’appuie sur **deux grandes briq
 
 Les données susceptibles d’intégrer ces deux plateformes peuvent provenir de ressources très diverses, parmi lesquelles : des bibliothèques numériques, des catalogues et répertoires, des bases de données scientifiques, des corpus spécialisés, des éditions électroniques de sources anciennes, ou encore des thesauri et listes d’autorité.
 
-La page [Ressources](https://projet.biblissima.fr/fr/ressources/ressources-biblissima) du site de Biblissima+ donne une vue d’ensemble des ressources produites et maintenues par les équipes partenaires de Biblissima 1 (2012-2021) et Biblissima+ (2021-2029). [Cette autre page](https://portail.biblissima.fr/fr/dev-log) présente les principales évolutions du Portail depuis sa mise en ligne en avril 2017, en particulier les différentes ressources qui ont été traitées et intégrées par l’équipe au fil du temps.
+La page [Ressources](https://projet.biblissima.fr/fr/ressources/ressources-biblissima) du site de Biblissima+ donne une vue d’ensemble des ressources produites et maintenues par les équipes partenaires de Biblissima 1 (2012-2021) et Biblissima+ (2021-2029). La page [Journal des mises à jour et développements](../portail/changelog) présente les principales évolutions du Portail depuis sa mise en ligne en avril 2017, en particulier les différentes ressources qui ont été traitées et intégrées par l’équipe au fil du temps.
 
 
 ## Comment s’aligner avec les référentiels Biblissima ? Comment y contribuer ?
@@ -62,12 +62,12 @@ Les dispositifs suivants sont disponibles pour contribuer aux référentiels :
 
 - l’interface web de la plateforme [data.biblissima.fr](https://data.biblissima.fr), via le compte utilisateur qui aura été créé pour le partenaire ;
 - le logiciel client _[OpenRefine](https://openrefine.org/)_, qui dispose d'un module permettant de verser des items par lot dans la plateforme à l'aide d'une interface graphique ;
-- des programmes informatiques ad hoc pouvant s’appuyer sur les API de la plateforme pour aligner, rechercher, créer, éditer, supprimer des items (cf. [page API](https://data.biblissima.fr/w/Project:API)). Ces APIs peuvent par exemple être implémentées dans des modules d’applications web (formulaire de saisie de base de données) ou des plateformes d’édition de sources en XML développées au sein des équipes partenaires de Biblissima+.
+- des programmes informatiques ad hoc pouvant s’appuyer sur les API de la plateforme pour aligner, rechercher, créer, éditer, supprimer des items (cf. [page API](../api)). Ces APIs peuvent par exemple être implémentées dans des modules d’applications web (formulaire de saisie de base de données) ou des plateformes d’édition de sources en XML développées au sein des équipes partenaires de Biblissima+.
 - des modèles de fichiers CSV (téléchargeables ci-dessous) pour structurer les données à verser dans data.biblissima, accompagnés d'explications sur les colonnes disponibles.
 
 ### Modèles de fichiers CSV pour data.biblissima
 
-!!! note "Modèles CSV pour verser des données dans les référentiels Biblissima data.biblissima"
+!!! abstract "Modèles CSV pour verser des données dans les référentiels Biblissima data.biblissima"
 
     - Cotes : [Télécharger](assets/csv_fichiers_type/biblissima_fichier_type_cotes.csv){:download="biblissima_fichier_type_cotes.csv"} :octicons-download-16:
     - Personnes : [Télécharger](assets/csv_fichiers_type/biblissima_fichier_type_personnes.csv){:download="biblissima_fichier_type_personnes.csv"} :octicons-download-16:
@@ -103,7 +103,7 @@ L’équipe Portail Biblissima+ prend en charge les modes d’exposition et de p
 | Autre API Web (JSON ou XML) | [Activity Streams](https://www.w3.org/TR/activitystreams-core/) ; [DTS](https://distributed-text-services.github.io/specifications/) ; [Hydra](https://www.hydra-cg.com) ; [Elasticsearch](https://www.elastic.co/guide/en/elasticsearch/reference/current/rest-apis.html) | |
 | Export dynamique au format pivot Biblissima | [Format pivot Biblissima](portail/format-pivot-biblissima.md) | |
 
-!!! attention "Important"
+!!! warning "Important"
 
     L’équipe Portail Biblissima+ ne pourra engager du temps dans le traitement d’un jeu de données seulement si celui-ci est mis à disposition selon un des modes listés ci-dessus.
 
@@ -134,7 +134,7 @@ Les modalités de contribution aux référentiels Biblissima sont présentées d
 - développe et maintient les scripts de collecte des jeux de données, d’extraction des métadonnées pertinentes pour Biblissima+, et de transformation pour leur intégration dans le Portail ;
 - analyse, traite et intègre les données dans l’infrastructure Biblissima+ de façon autonome.
 
-!!! attention "Important"
+!!! warning "Important"
 
     Pour les projets candidats ou lauréats d’un appel à manifestation d'intérêt :
 
@@ -305,9 +305,9 @@ Une méthode complémentaire est de référencer les métadonnées source via la
     - le serveur doit être paramétré pour inclure [l’entête CORS](https://developer.mozilla.org/fr/docs/Web/HTTP/CORS) dans toutes les réponses aux requêtes de Manifestes JSON (API Présentation) et de fichiers info.json (API Image). Pour plus de détails, voir [https://iiif.io/api/annex/notes/apache/#enabling-cors](https://iiif.io/api/annex/notes/apache/#enabling-cors) et [https://enable-cors.org/server.html](https://enable-cors.org/server.html).
     
 
-### Préconisations pour la transmission et la mise à jour des données : document de synthèse
+### Préconisations pour la transmission et la mise à jour des données
 
-Un document de synthèse est mis à disposition des équipes partenaires afin de leur permettre de définir au mieux les **modalités de transmission**, et surtout de **mise à jour**, de leurs jeux de données.
+Un document de synthèse (téléchargeable ci-dessous) est mis à disposition des équipes partenaires afin de leur permettre de définir au mieux les **modalités de transmission**, et surtout de **mise à jour**, de leurs jeux de données.
 
 Ce document comprend :
 
@@ -322,9 +322,9 @@ Le niveau et/ou la profondeur d'interopérabilité d'un jeu de données conditio
 
 En offrant une vision d'ensemble sur les modes de transmission et de mise à jour possibles des données, ce document vise également à aider les partenaires à se situer et à identifier les améliorations possibles dans les processus de transmission de données qu'ils ont mis ou vont mettre en place.
 
-!!! info ""
+!!! abstract "Préconisations pour la transmission et la mise à jour des données : document de synthèse"
 
-    Préconisations pour la transmission et la mise à jour des données (PDF) : [**Télécharger le document**](assets/transmission_donnees/preconisations_transmission_donnees.pdf){:download="preconisations_transmission_donnees.pdf"} :octicons-download-16:
+      [**Télécharger le document (PDF)**](assets/transmission_donnees/preconisations_transmission_donnees.pdf){:download="preconisations_transmission_donnees.pdf"} :octicons-download-16:
 
 Pour échanger sur les spécificités de votre jeu de données et obtenir un appui pour définir les meilleurs processus possibles de transmission et de mise à jour de vos données, veuillez contacter l'équipe Portail à l'adresse _team(at)biblissima-condorcet.fr_.
 
